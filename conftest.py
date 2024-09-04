@@ -34,7 +34,6 @@ def pytest_runtest_makereport(item, call):
 def browser(request):
     browser_name = request.config.getoption("--browser")
     headless_mode = request.config.getoption("--headless")
-    executor = request.config.getoption("--executor")
 
     if browser_name == "chrome":
         options = Options()
