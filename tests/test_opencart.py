@@ -7,4 +7,7 @@ from page_objects.main_page import MainPage
 def test_main_search(browser, base_url):
     browser.get(f"{base_url}:8081/")
     main_page = MainPage(browser)
-    main_page.main_search(get_fake_product())
+    data = get_fake_product()
+    main_page.main_search(data)
+    value = main_page.search_check()
+    assert data in value
