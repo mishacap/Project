@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from page_objects.base_page import BasePage
 
 
-class MainPage(BasePage):
+class CurrencyPage(BasePage):
     CURRENCY = By.CSS_SELECTOR, "#form-currency > div"
     CURRENCY_EURO = By.CSS_SELECTOR, "#form-currency > div > ul > li:nth-child(1) > a"
     CURRENCY_POUND = By.CSS_SELECTOR, "#form-currency > div > ul > li:nth-child(2) > a"

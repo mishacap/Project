@@ -4,6 +4,7 @@ import allure
 from conftest import browser, base_url
 from helpers import get_fake_product, get_user_data, get_random_user, get_credentials
 from page_objects.administration_page import AdministrationPage
+from page_objects.currency_page import CurrencyPage
 from page_objects.main_page import MainPage
 from page_objects.registration_page import RegistrationPage
 
@@ -47,3 +48,35 @@ def test_administration_login_logout(browser, base_url):
     admin_page.login(*admin_data)
     admin_page.logout()
 
+def test_change_currency_euro(browser, base_url):
+    browser.get(f"{base_url}:8081/")
+    currency_page = CurrencyPage(browser)
+    currency_page.change_currency_euro()
+    currency = currency_page.currency_check()
+    assert "€" in currency
+    currency_cart = currency_page.currency_cart_check()
+    assert "€" in currency_cart
+    currency_featured = currency_page.currency_featured_check()
+    assert "€" in currency_featured
+
+def test_change_currency_pound(browser, base_url):
+    browser.get(f"{base_url}:8081/")
+    currency_page = CurrencyPage(browser)
+    currency_page.change_currency_pound()
+    currency = currency_page.currency_check()
+    assert "£" in currency
+    currency_cart = currency_page.currency_cart_check()
+    assert "£" in currency_cart
+    currency_featured = currency_page.currency_featured_check()
+    assert "£" in currency_featured
+
+def test_change_currency_dollar(browser, base_url):
+    browser.get(f"{base_url}:8081/")
+    currency_page = CurrencyPage(browser)
+    currency_page.change_currency_dollar()
+    currency = currency_page.currency_check()
+    assert "$" in currency
+    currency_cart = currency_page.currency_cart_check()
+    assert "$" in currency_cart
+    currency_featured = currency_page.currency_featured_check()
+    assert "$" in currency_featured
