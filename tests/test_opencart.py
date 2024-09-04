@@ -11,3 +11,4 @@ def test_main_search(browser, base_url):
     main_page.main_search(data)
     value = main_page.search_check()
     assert data in value
+
