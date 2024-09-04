@@ -19,13 +19,14 @@ def get_user_data():
     return firstname, lastname, email, password
 
 
-import csv
-
-
 def get_emails():
     with open(CSV_FILE_PATH, mode='r') as csv_file:
         next(csv_file)
         line = csv_file.readline().strip()
         emails = [email.strip() for email in line.split(',') if email.strip()]
     return emails
+
+def get_random_user():
+    email_list = get_emails()
+    return random.choice(email_list), "test"
 
