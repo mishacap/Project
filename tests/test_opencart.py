@@ -33,3 +33,7 @@ def test_registration_new_user(browser, base_url):
     registration_status = registration_page.registration_check()
     assert "Register Account" in registration_status
 
+def test_user_login(browser, base_url):
+    browser.get(f"{base_url}:8081/")
+    main_page = MainPage(browser)
+    main_page.main_login("mmm@mmm.ru", "test")
