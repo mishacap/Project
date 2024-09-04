@@ -15,6 +15,7 @@ class MainPage(BasePage):
     PASSWORD_INPUT = By.CSS_SELECTOR, "#input-password"
     LOGIN_BUTTON = By.CSS_SELECTOR, "#form-login > div.text-end > button"
     LOGOUT_BUTTON = By.CSS_SELECTOR, "#column-right > div > a:nth-child(13)"
+    MAIN = By.CSS_SELECTOR, "#logo > a > img"
 
 
 
@@ -44,3 +45,8 @@ class MainPage(BasePage):
         self.click(self.LOGIN_BUTTON)
         self.is_present(self.LOGIN_BUTTON)
         return self
+
+    def go_to_main(self):
+        self.click(self.MAIN)
+        return self
+

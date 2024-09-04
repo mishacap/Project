@@ -20,6 +20,9 @@ class ProductPage(BasePage):
     WISHLIST_REMOVE_BUTTON = By.CSS_SELECTOR, "#wishlist > div > table > tbody > tr > td:nth-child(6) > form > button.btn.btn-danger"
     WISHLIST_ADD_TO_CART_BUTTON = By.CSS_SELECTOR, "#wishlist > div > table > tbody > tr > td:nth-child(6) > form > button.btn.btn-primary"
     WISHLIST_CONTINUE_BUTTON = By.CSS_SELECTOR, "#content > div.text-end > a"
+    WISHLIST = By.CSS_SELECTOR, "div > a:nth-child(5)"
+
+
 
 
 

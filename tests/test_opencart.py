@@ -100,6 +100,10 @@ def test_add_to_compare(browser, base_url):
 
 def test_add_to_wishlist(browser, base_url):
     browser.get(f"{base_url}:8081/")
+    main_page = MainPage(browser)
+    user_data = get_random_user()
+    main_page.main_login(*user_data)
+    main_page.go_to_main()
     product_page = ProductPage(browser)
     product_page.click_featured_product()
     product_page.add_to_wishlist()
