@@ -2,7 +2,8 @@ import time
 
 import allure
 from conftest import browser, base_url
-from helpers import get_fake_product, get_user_data, get_random_user
+from helpers import get_fake_product, get_user_data, get_random_user, get_credentials
+from page_objects.administration_page import AdministrationPage
 from page_objects.main_page import MainPage
 from page_objects.registration_page import RegistrationPage
 
@@ -39,3 +40,9 @@ def test_user_login(browser, base_url):
     user_data = get_random_user()
     main_page.main_login(*user_data)
 
+def test_administration_login_logout(browser, base_url):
+    browser.get(f"{base_url}:8081/administration/")
+    admin_page = AdministrationPage(browser)
+    admin_data = get_credentials()
+    admin_page.login(*admin_data)
+    admin_page.logout()
