@@ -2,7 +2,7 @@ import time
 
 import allure
 from conftest import browser, base_url
-from helpers import get_fake_product, get_user_data
+from helpers import get_fake_product, get_user_data, get_random_user
 from page_objects.main_page import MainPage
 from page_objects.registration_page import RegistrationPage
 
@@ -36,4 +36,6 @@ def test_registration_new_user(browser, base_url):
 def test_user_login(browser, base_url):
     browser.get(f"{base_url}:8081/")
     main_page = MainPage(browser)
-    main_page.main_login("mmm@mmm.ru", "test")
+    user_data = get_random_user()
+    main_page.main_login(*user_data)
+

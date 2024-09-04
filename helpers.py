@@ -1,7 +1,9 @@
+import csv
+
 from faker import Faker
 import random
-from csv import DictReader
-from files import CSV_FILE_PATH
+from files import CSV_FILE_PATH, ADMIN_CREDENTIALS
+
 
 def get_fake_product():
     fake = Faker()
@@ -30,3 +32,10 @@ def get_random_user():
     email_list = get_emails()
     return random.choice(email_list), "test"
 
+
+def get_credentials():
+    with open(ADMIN_CREDENTIALS, mode="r", newline='') as csv_file:
+        csv_reader = csv.reader(csv_file)
+        next(csv_reader)
+        for row in csv_reader:
+            return row
