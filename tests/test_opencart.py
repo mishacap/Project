@@ -94,5 +94,14 @@ def test_add_to_compare(browser, base_url):
     browser.get(f"{base_url}:8081/")
     product_page = ProductPage(browser)
     product_page.click_featured_product()
+    product_page.add_to_compare()
+    product_page.click_alert()
+    product_page.comparison_check()
 
-
+def test_add_to_wishlist(browser, base_url):
+    browser.get(f"{base_url}:8081/")
+    product_page = ProductPage(browser)
+    product_page.click_featured_product()
+    product_page.add_to_wishlist()
+    product_page.click_alert()
+    product_page.wishlist_check()
