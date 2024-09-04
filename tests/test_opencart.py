@@ -1,7 +1,10 @@
+import time
+
 import allure
 from conftest import browser, base_url
-from helpers import get_fake_product
+from helpers import get_fake_product, get_user_data
 from page_objects.main_page import MainPage
+from page_objects.registration_page import RegistrationPage
 
 
 def test_main_elements(browser, base_url):
@@ -16,4 +19,17 @@ def test_main_search(browser, base_url):
     main_page.main_search(data)
     value = main_page.search_check()
     assert data in value
+
+def test_registration_elements(browser, base_url):
+    browser.get(f"{base_url}:8081/index.php?route=account/register")
+    registration_page = RegistrationPage(browser)
+    registration_page.wait_registration_elements()
+
+def test_registration_new_user(browser, base_url):
+    browser.get(f"{base_url}:8081/index.php?route=account/register")
+    registration_page = RegistrationPage(browser)
+    user_data = get_user_data()
+    registration_page.registration(*user_data)
+    registration_status = registration_page.registration_check()
+    assert "Register Account" in registration_status
 

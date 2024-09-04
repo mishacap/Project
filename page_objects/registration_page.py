@@ -9,7 +9,9 @@ class RegistrationPage(BasePage):
     PASSWORD_INPUT = By.CSS_SELECTOR, "#input-password"
     CONTINUE_BUTTON = By.CSS_SELECTOR, "#form-register > div > button"
     PRIVACY_POLICY_SWITCHER = By.CSS_SELECTOR, "#form-register > div > div > input"
+
     ACCOUNT_HAS_BEEN_CREATED = By.CSS_SELECTOR, "#content > h1"
+    AFTER_REG_CONTINUE_BUTTON = By.CSS_SELECTOR, "#content > div > a"
 
     def wait_registration_elements(self):
         self.is_present(self.FIRST_NAME_INPUT)
@@ -27,5 +29,8 @@ class RegistrationPage(BasePage):
         self.input_value(self.PASSWORD_INPUT, password)
         self.click(self.PRIVACY_POLICY_SWITCHER)
         self.click(self.CONTINUE_BUTTON)
-        self.get_element(self.ACCOUNT_HAS_BEEN_CREATED)
         return self
+
+    def registration_check(self):
+        registration_status = self.get_element(self.ACCOUNT_HAS_BEEN_CREATED)
+        return registration_status.text
