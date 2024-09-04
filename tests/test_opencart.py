@@ -4,6 +4,11 @@ from helpers import get_fake_product
 from page_objects.main_page import MainPage
 
 
+def test_main_elements(browser, base_url):
+    browser.get(f"{base_url}:8081/")
+    main_page = MainPage(browser)
+    main_page.wait_main_elements()
+
 def test_main_search(browser, base_url):
     browser.get(f"{base_url}:8081/")
     main_page = MainPage(browser)
