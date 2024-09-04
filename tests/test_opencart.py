@@ -6,6 +6,7 @@ from helpers import get_fake_product, get_user_data, get_random_user, get_creden
 from page_objects.administration_page import AdministrationPage
 from page_objects.currency_page import CurrencyPage
 from page_objects.main_page import MainPage
+from page_objects.product_page import ProductPage
 from page_objects.registration_page import RegistrationPage
 
 
@@ -80,3 +81,18 @@ def test_change_currency_dollar(browser, base_url):
     assert "$" in currency_cart
     currency_featured = currency_page.currency_featured_check()
     assert "$" in currency_featured
+
+def test_add_featured_to_cart(browser, base_url):
+    browser.get(f"{base_url}:8081/")
+    product_page = ProductPage(browser)
+    product_page.click_featured_product()
+    product_page.add_to_cart()
+    product_page.close_alert()
+    product_page.item_in_cart_check()
+
+def test_add_to_compare(browser, base_url):
+    browser.get(f"{base_url}:8081/")
+    product_page = ProductPage(browser)
+    product_page.click_featured_product()
+
+
