@@ -1,5 +1,7 @@
 from faker import Faker
 import random
+from csv import DictReader
+from files import CSV_FILE_PATH
 
 def get_fake_product():
     fake = Faker()
@@ -15,3 +17,15 @@ def get_user_data():
     email = fake.email()
     password = "test"
     return firstname, lastname, email, password
+
+
+import csv
+
+
+def get_emails():
+    with open(CSV_FILE_PATH, mode='r') as csv_file:
+        next(csv_file)
+        line = csv_file.readline().strip()
+        emails = [email.strip() for email in line.split(',') if email.strip()]
+    return emails
+
