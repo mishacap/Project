@@ -46,3 +46,4 @@ def test_administration_login_logout(browser, base_url):
     admin_data = get_credentials()
     admin_page.login(*admin_data)
     admin_page.logout()
+
