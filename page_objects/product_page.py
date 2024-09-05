@@ -22,48 +22,52 @@ class ProductPage(BasePage):
     WISHLIST_CONTINUE_BUTTON = By.CSS_SELECTOR, "#content > div.text-end > a"
     WISHLIST = By.CSS_SELECTOR, "div > a:nth-child(5)"
 
-
-
-
-
-
-
+    @allure.step("Кликаю на товар из подборки")
     def click_featured_product(self, index=0):
         if index == 0:
             self.click(self.FEATURED_PRODUCT_NAME)
         else:
             self.get_elements(self.FEATURED_PRODUCT_NAME)[index].click()
 
+    @allure.step("Добавляю товар в корзину")
     def add_to_cart(self):
         self.click(self.ADD_TO_CART_BUTTON)
         return self
+
+    @allure.step("Добавляю товар в сравнение")
     def add_to_compare(self):
         self.click(self.COMPARE_BUTTON)
         return self
 
+    @allure.step("Кликаю по алерту")
     def click_alert(self):
         self.click(self.COMPARISON_WISHLIST_PAGE)
         return self
 
+    @allure.step("Закрываю алерт")
     def close_alert(self):
         self.click(self.CLOSE_ALERT)
         return self
 
+    @allure.step("Проверяю наличие товара в корзине")
     def item_in_cart_check(self):
         self.is_present(self.CART)
         self.click(self.CART)
         self.is_present(self.REMOVE_BUTTON)
         return self
 
+    @allure.step("Проверяю наличие товара в сравнении")
     def comparison_check(self):
         self.is_present(self.COMPARISON_REMOVE_BUTTON)
         self.is_present(self.COMPARISON_ADD_TO_CART_BUTTON)
         return self
 
+    @allure.step("Добавляю товар в вишлист")
     def add_to_wishlist(self):
         self.click(self.ADD_TO_WISHLIST_BUTTON)
         return self
 
+    @allure.step("Проверяю наличие товара в вишлисте")
     def wishlist_check(self):
         self.is_present(self.WISHLIST_REMOVE_BUTTON)
         self.is_present(self.WISHLIST_ADD_TO_CART_BUTTON)

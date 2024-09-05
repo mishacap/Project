@@ -18,7 +18,7 @@ class MainPage(BasePage):
     MAIN = By.CSS_SELECTOR, "#logo > a > img"
 
 
-
+    @allure.step("Ожидаю элементы главной страницы")
     def wait_main_elements(self):
         self.is_present(self.CART_BUTTON)
         self.is_present(self.SEARCH_INPUT)
@@ -27,16 +27,19 @@ class MainPage(BasePage):
         return self
 
 
+    @allure.step("Выполняю поиск по значению: {value}")
     def main_search(self, value):
         self.input_value(self.SEARCH_INPUT, value)
         self.click(self.SEARCH_BUTTON)
         self.get_element(self.SEARCH_ELEMENT)
         return self
 
+    @allure.step("Проверяю текст на странице поиска")
     def search_check(self):
         search_value = self.get_element(self.SEARCH_VALUE)
         return search_value.text
 
+    @allure.step("Выполняю логин с имейлом:{email} и паролем:{password}")
     def main_login(self, email, password):
         self.click(self.MY_ACCOUNT)
         self.click(self.LOGIN_DROPDOWN)
@@ -46,6 +49,7 @@ class MainPage(BasePage):
         self.is_present(self.LOGIN_BUTTON)
         return self
 
+    @allure.step("Возвращаюсь на главную старницу")
     def go_to_main(self):
         self.click(self.MAIN)
         return self

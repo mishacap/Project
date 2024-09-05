@@ -13,6 +13,7 @@ class RegistrationPage(BasePage):
     ACCOUNT_HAS_BEEN_CREATED = By.CSS_SELECTOR, "#content > h1"
     AFTER_REG_CONTINUE_BUTTON = By.CSS_SELECTOR, "#content > div > a"
 
+    @allure.step("Ожидаю элементы на странице регистрации")
     def wait_registration_elements(self):
         self.is_present(self.FIRST_NAME_INPUT)
         self.is_present(self.LAST_NAME_INPUT)
@@ -22,6 +23,7 @@ class RegistrationPage(BasePage):
         self.is_present(self.PRIVACY_POLICY_SWITCHER)
         return self
 
+    @allure.step("Регистрирую юзера с именем:{firstname}, фамилией:{lastname}, имейлом:{email}, паролем:{password}")
     def registration(self, firstname, lastname, email, password):
         self.input_value(self.FIRST_NAME_INPUT, firstname)
         self.input_value(self.LAST_NAME_INPUT, lastname)
@@ -31,6 +33,7 @@ class RegistrationPage(BasePage):
         self.click(self.CONTINUE_BUTTON)
         return self
 
+    @allure.step("Проверяю успешное завершение регистрации")
     def registration_check(self):
         registration_status = self.get_element(self.ACCOUNT_HAS_BEEN_CREATED)
         return registration_status.text

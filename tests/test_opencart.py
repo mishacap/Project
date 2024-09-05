@@ -10,11 +10,19 @@ from page_objects.product_page import ProductPage
 from page_objects.registration_page import RegistrationPage
 
 
+@allure.epic("Opencart")
+@allure.feature("Main page")
+@allure.story("Elements")
+@allure.title("Main page elements check")
 def test_main_elements(browser, base_url):
     browser.get(f"{base_url}:8081/")
     main_page = MainPage(browser)
     main_page.wait_main_elements()
 
+@allure.epic("Opencart")
+@allure.feature("Main page")
+@allure.story("Search")
+@allure.title("Search non existing data")
 def test_main_search(browser, base_url):
     browser.get(f"{base_url}:8081/")
     main_page = MainPage(browser)
@@ -23,11 +31,19 @@ def test_main_search(browser, base_url):
     value = main_page.search_check()
     assert data in value
 
+@allure.epic("Opencart")
+@allure.feature("Main page")
+@allure.story("Elements")
+@allure.title("Registration elements check")
 def test_registration_elements(browser, base_url):
     browser.get(f"{base_url}:8081/index.php?route=account/register")
     registration_page = RegistrationPage(browser)
     registration_page.wait_registration_elements()
 
+@allure.epic("Opencart")
+@allure.feature("Registration page")
+@allure.story("Elements")
+@allure.title("Registration elements check")
 def test_registration_new_user(browser, base_url):
     browser.get(f"{base_url}:8081/index.php?route=account/register")
     registration_page = RegistrationPage(browser)
@@ -36,12 +52,20 @@ def test_registration_new_user(browser, base_url):
     registration_status = registration_page.registration_check()
     assert "Register Account" in registration_status
 
+@allure.epic("Opencart")
+@allure.feature("Registration page")
+@allure.story("Registration")
+@allure.title("New user registration")
 def test_user_login(browser, base_url):
     browser.get(f"{base_url}:8081/")
     main_page = MainPage(browser)
     user_data = get_random_user()
     main_page.main_login(*user_data)
 
+@allure.epic("Opencart")
+@allure.feature("Login page --> Admin page")
+@allure.story("Navigate")
+@allure.title("Administrator account login")
 def test_administration_login_logout(browser, base_url):
     browser.get(f"{base_url}:8081/administration/")
     admin_page = AdministrationPage(browser)
@@ -49,6 +73,10 @@ def test_administration_login_logout(browser, base_url):
     admin_page.login(*admin_data)
     admin_page.logout()
 
+@allure.epic("Opencart")
+@allure.feature("Main page")
+@allure.story("Elements")
+@allure.title("Сurrency change to euro")
 def test_change_currency_euro(browser, base_url):
     browser.get(f"{base_url}:8081/")
     currency_page = CurrencyPage(browser)
@@ -60,6 +88,10 @@ def test_change_currency_euro(browser, base_url):
     currency_featured = currency_page.currency_featured_check()
     assert "€" in currency_featured
 
+@allure.epic("Opencart")
+@allure.feature("Main page")
+@allure.story("Elements")
+@allure.title("Сurrency change to pound")
 def test_change_currency_pound(browser, base_url):
     browser.get(f"{base_url}:8081/")
     currency_page = CurrencyPage(browser)
@@ -71,6 +103,10 @@ def test_change_currency_pound(browser, base_url):
     currency_featured = currency_page.currency_featured_check()
     assert "£" in currency_featured
 
+@allure.epic("Opencart")
+@allure.feature("Main page")
+@allure.story("Elements")
+@allure.title("Сurrency change to dollar")
 def test_change_currency_dollar(browser, base_url):
     browser.get(f"{base_url}:8081/")
     currency_page = CurrencyPage(browser)
@@ -82,6 +118,10 @@ def test_change_currency_dollar(browser, base_url):
     currency_featured = currency_page.currency_featured_check()
     assert "$" in currency_featured
 
+@allure.epic("Opencart")
+@allure.feature("Main page --> Product page")
+@allure.story("Navigate")
+@allure.title("Add to cart")
 def test_add_featured_to_cart(browser, base_url):
     browser.get(f"{base_url}:8081/")
     product_page = ProductPage(browser)
@@ -90,6 +130,10 @@ def test_add_featured_to_cart(browser, base_url):
     product_page.close_alert()
     product_page.item_in_cart_check()
 
+@allure.epic("Opencart")
+@allure.feature("Main page --> Product page")
+@allure.story("Navigate")
+@allure.title("Add to comparison")
 def test_add_to_compare(browser, base_url):
     browser.get(f"{base_url}:8081/")
     product_page = ProductPage(browser)
@@ -98,6 +142,10 @@ def test_add_to_compare(browser, base_url):
     product_page.click_alert()
     product_page.comparison_check()
 
+@allure.epic("Opencart")
+@allure.feature("Main page --> Product page")
+@allure.story("Navigate")
+@allure.title("Add to wishlist")
 def test_add_to_wishlist(browser, base_url):
     browser.get(f"{base_url}:8081/")
     main_page = MainPage(browser)
