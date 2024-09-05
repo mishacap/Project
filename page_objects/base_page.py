@@ -13,7 +13,7 @@ class BasePage:
         self.class_name = type(self).__name__
 
     def get_element(self, locator: tuple, timeout=3):
-        self.logger.debug("%s: Get element: %s" % (self.class_name, str(locator)))
+        self.logger.info("%s: Get element: %s" % (self.class_name, str(locator)))
         return WebDriverWait(self.browser, timeout).until(EC.visibility_of_element_located(locator))
 
     def get_elements(self, locator: tuple, timeout=3):
@@ -23,18 +23,18 @@ class BasePage:
         return WebDriverWait(self.browser, timeout).until(EC.alert_is_present(locator))
 
     def click(self, locator: tuple):
-        self.logger.debug("%s: Clicking element: %s" % (self.class_name, str(locator)))
+        self.logger.info("%s: Clicking element: %s" % (self.class_name, str(locator)))
         ActionChains(self.browser).move_to_element(self.get_element(locator)).pause(0.3).click().perform()
 
     def input_value(self, locator: tuple, text: str):
-        self.logger.debug("%s: Input %s in input %s" % (self.class_name, text, locator))
+        self.logger.info("%s: Input %s in input %s" % (self.class_name, text, locator))
         self.get_element(locator).click()
         self.get_element(locator).click()
         for l in text:
             self.get_element(locator).send_keys(l)
 
     def is_present(self, locator: tuple, timeout=3):
-        self.logger.debug("%s: Wait element: %s" % (self.class_name, locator))
+        self.logger.info("%s: Wait element: %s" % (self.class_name, locator))
         try:
             return WebDriverWait(self.browser, timeout).until(EC.visibility_of_element_located(locator))
         except selenium.common.exceptions.TimeoutException:

@@ -1,10 +1,9 @@
 import datetime
 import logging
-
 import allure
 import pytest
 import json
-import requests
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -57,7 +56,7 @@ def browser(request):
         options = FFOptions()
         if headless_mode:
             options.add_argument("--headless")
-        browser = webdriver.Firefox(service=FFService, options=FFOptions)
+        browser = webdriver.Firefox(service=FFService(), options=FFOptions())
     else:
         raise ValueError(f"Browser {browser_name} not supported")
 
