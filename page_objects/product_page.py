@@ -73,4 +73,3 @@ class ProductPage(BasePage):
         self.is_present(self.WISHLIST_ADD_TO_CART_BUTTON)
         self.is_present(self.WISHLIST_CONTINUE_BUTTON)
         return self
-

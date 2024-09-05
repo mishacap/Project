@@ -53,4 +53,3 @@ class MainPage(BasePage):
     def go_to_main(self):
         self.click(self.MAIN)
         return self
-

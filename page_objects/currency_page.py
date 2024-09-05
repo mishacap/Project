@@ -52,4 +52,3 @@ class CurrencyPage(BasePage):
     def currency_featured_check(self):
         currency_element = self.get_element(self.FEATURED)
         return currency_element.text
-
