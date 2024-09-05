@@ -43,7 +43,7 @@ def test_registration_elements(browser, base_url):
 @allure.epic("Opencart")
 @allure.feature("Registration page")
 @allure.story("Elements")
-@allure.title("Registration elements check")
+@allure.title("Registration new user")
 def test_registration_new_user(browser, base_url):
     browser.get(f"{base_url}:8081/index.php?route=account/register")
     registration_page = RegistrationPage(browser)
