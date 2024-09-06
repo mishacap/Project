@@ -22,7 +22,7 @@ class BasePage:
         return WebDriverWait(self.browser, timeout).until(EC.alert_is_present(locator))
 
     def click(self, locator: tuple):
-        self.logger.info("%s: Clicking element: %s" % (self.class_name, str(locator)))
+        self.logger.debug("%s: Clicking element: %s" % (self.class_name, str(locator)))
         ActionChains(self.browser).move_to_element(self.get_element(locator)).pause(0.3).click().perform()
 
     def input_value(self, locator: tuple, text: str):

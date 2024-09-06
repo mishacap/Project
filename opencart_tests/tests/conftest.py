@@ -15,7 +15,7 @@ from selenium.webdriver.firefox.options import Options as FFOptions
 def pytest_addoption(parser):
     parser.addoption("--browser", action="store", default="chrome")
     parser.addoption("--url", action="store", default="http://192.168.31.66")
-    parser.addoption("--headless", action="store_true")
+    parser.addoption("--headless", action="store_true", default=True)
     parser.addoption("--log_level", action="store", default="INFO")
 
 
