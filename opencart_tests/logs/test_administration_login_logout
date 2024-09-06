@@ -1,0 +1,30 @@
+INFO ===> Test test_administration_login_logout started at 2024-09-06 11:14:20.625622
+INFO Browser chrome started
+INFO AdministrationPage: Clicking element: ('css selector', '#form-login > div.text-end > button')
+INFO AdministrationPage: Clicking element: ('css selector', '#nav-logout > a')
+INFO ===> Test test_administration_login_logout finished at 2024-09-06 11:14:23.872012
+INFO ===> Test test_administration_login_logout started at 2024-09-06 11:19:09.229399
+INFO Browser chrome started
+INFO AdministrationPage: Clicking element: ('css selector', '#form-login > div.text-end > button')
+INFO AdministrationPage: Clicking element: ('css selector', '#nav-logout > a')
+INFO ===> Test test_administration_login_logout finished at 2024-09-06 11:19:12.444516
+INFO ===> Test test_administration_login_logout started at 2024-09-06 11:20:54.503280
+INFO Browser chrome started
+INFO AdministrationPage: Clicking element: ('css selector', '#form-login > div.text-end > button')
+INFO AdministrationPage: Clicking element: ('css selector', '#nav-logout > a')
+INFO ===> Test test_administration_login_logout finished at 2024-09-06 11:20:57.819327
+INFO ===> Test test_administration_login_logout started at 2024-09-06 11:23:49.350239
+INFO Browser chrome started
+INFO ===> Test test_administration_login_logout finished at 2024-09-06 11:23:52.640792
+INFO ===> Test test_administration_login_logout started at 2024-09-06 11:24:58.701265
+INFO Browser chrome started
+INFO ===> Test test_administration_login_logout finished at 2024-09-06 11:25:05.956892
+INFO ===> Test test_administration_login_logout started at 2024-09-06 11:26:35.398145
+INFO Browser chrome started
+INFO ===> Test test_administration_login_logout finished at 2024-09-06 11:26:43.200052
+INFO ===> Test test_administration_login_logout started at 2024-09-06 11:38:42.700023
+INFO Browser chrome started
+INFO ===> Test test_administration_login_logout finished at 2024-09-06 11:38:50.163655
+INFO ===> Test test_administration_login_logout started at 2024-09-06 11:44:00.290274
+INFO Browser chrome started
+INFO ===> Test test_administration_login_logout finished at 2024-09-06 11:44:08.014198

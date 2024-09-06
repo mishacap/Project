@@ -1,0 +1,33 @@
+INFO ===> Test test_add_to_compare started at 2024-09-06 11:14:37.423409
+INFO Browser chrome started
+INFO ProductPage: Clicking element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO ProductPage: Clicking element: ('css selector', '#content > div.row.mb-3 > div:nth-child(2) > form > div > button:nth-child(2)')
+INFO ProductPage: Clicking element: ('css selector', '#alert > div > a:nth-child(3)')
+INFO ===> Test test_add_to_compare finished at 2024-09-06 11:14:41.891900
+INFO ===> Test test_add_to_compare started at 2024-09-06 11:19:26.226115
+INFO Browser chrome started
+INFO ProductPage: Clicking element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO ProductPage: Clicking element: ('css selector', '#content > div.row.mb-3 > div:nth-child(2) > form > div > button:nth-child(2)')
+INFO ProductPage: Clicking element: ('css selector', '#alert > div > a:nth-child(3)')
+INFO ===> Test test_add_to_compare finished at 2024-09-06 11:19:30.698043
+INFO ===> Test test_add_to_compare started at 2024-09-06 11:21:11.697199
+INFO Browser chrome started
+INFO ProductPage: Clicking element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO ProductPage: Clicking element: ('css selector', '#content > div.row.mb-3 > div:nth-child(2) > form > div > button:nth-child(2)')
+INFO ProductPage: Clicking element: ('css selector', '#alert > div > a:nth-child(3)')
+INFO ===> Test test_add_to_compare finished at 2024-09-06 11:21:16.120395
+INFO ===> Test test_add_to_compare started at 2024-09-06 11:24:06.346434
+INFO Browser chrome started
+INFO ===> Test test_add_to_compare finished at 2024-09-06 11:24:10.875292
+INFO ===> Test test_add_to_compare started at 2024-09-06 11:25:07.277814
+INFO Browser chrome started
+INFO ===> Test test_add_to_compare finished at 2024-09-06 11:25:16.479603
+INFO ===> Test test_add_to_compare started at 2024-09-06 11:26:42.875194
+INFO Browser chrome started
+INFO ===> Test test_add_to_compare finished at 2024-09-06 11:26:51.376972
+INFO ===> Test test_add_to_compare started at 2024-09-06 11:38:50.447681
+INFO Browser chrome started
+INFO ===> Test test_add_to_compare finished at 2024-09-06 11:38:59.175580
+INFO ===> Test test_add_to_compare started at 2024-09-06 11:44:07.661149
+INFO Browser chrome started
+INFO ===> Test test_add_to_compare finished at 2024-09-06 11:44:17.058703

@@ -1,0 +1,33 @@
+INFO ===> Test test_user_login started at 2024-09-06 11:14:16.694720
+INFO Browser chrome started
+INFO MainPage: Clicking element: ('css selector', '#top > div > div.nav.float-end > ul > li:nth-child(2) > div > a > span')
+INFO MainPage: Clicking element: ('css selector', '#top > div > div.nav.float-end > ul > li:nth-child(2) > div > ul > li:nth-child(2) > a')
+INFO MainPage: Clicking element: ('css selector', '#form-login > div.text-end > button')
+INFO ===> Test test_user_login finished at 2024-09-06 11:14:20.608641
+INFO ===> Test test_user_login started at 2024-09-06 11:19:05.257944
+INFO Browser chrome started
+INFO MainPage: Clicking element: ('css selector', '#top > div > div.nav.float-end > ul > li:nth-child(2) > div > a > span')
+INFO MainPage: Clicking element: ('css selector', '#top > div > div.nav.float-end > ul > li:nth-child(2) > div > ul > li:nth-child(2) > a')
+INFO MainPage: Clicking element: ('css selector', '#form-login > div.text-end > button')
+INFO ===> Test test_user_login finished at 2024-09-06 11:19:09.212301
+INFO ===> Test test_user_login started at 2024-09-06 11:20:50.264612
+INFO Browser chrome started
+INFO MainPage: Clicking element: ('css selector', '#top > div > div.nav.float-end > ul > li:nth-child(2) > div > a > span')
+INFO MainPage: Clicking element: ('css selector', '#top > div > div.nav.float-end > ul > li:nth-child(2) > div > ul > li:nth-child(2) > a')
+INFO MainPage: Clicking element: ('css selector', '#form-login > div.text-end > button')
+INFO ===> Test test_user_login finished at 2024-09-06 11:20:54.483220
+INFO ===> Test test_user_login started at 2024-09-06 11:23:45.407344
+INFO Browser chrome started
+INFO ===> Test test_user_login finished at 2024-09-06 11:23:49.330233
+INFO ===> Test test_user_login started at 2024-09-06 11:24:58.710345
+INFO Browser chrome started
+INFO ===> Test test_user_login finished at 2024-09-06 11:25:13.432090
+INFO ===> Test test_user_login started at 2024-09-06 11:26:35.394254
+INFO Browser chrome started
+INFO ===> Test test_user_login finished at 2024-09-06 11:26:48.837479
+INFO ===> Test test_user_login started at 2024-09-06 11:38:42.703409
+INFO Browser chrome started
+INFO ===> Test test_user_login finished at 2024-09-06 11:38:55.391718
+INFO ===> Test test_user_login started at 2024-09-06 11:44:00.298460
+INFO Browser chrome started
+INFO ===> Test test_user_login finished at 2024-09-06 11:44:13.605700

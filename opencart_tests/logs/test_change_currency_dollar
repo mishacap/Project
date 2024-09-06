@@ -1,0 +1,30 @@
+INFO ===> Test test_change_currency_dollar started at 2024-09-06 11:14:29.790749
+INFO Browser chrome started
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO ===> Test test_change_currency_dollar finished at 2024-09-06 11:14:32.789306
+INFO ===> Test test_change_currency_dollar started at 2024-09-06 11:19:18.532439
+INFO Browser chrome started
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO ===> Test test_change_currency_dollar finished at 2024-09-06 11:19:21.589068
+INFO ===> Test test_change_currency_dollar started at 2024-09-06 11:21:04.055393
+INFO Browser chrome started
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO ===> Test test_change_currency_dollar finished at 2024-09-06 11:21:07.093874
+INFO ===> Test test_change_currency_dollar started at 2024-09-06 11:23:58.599072
+INFO Browser chrome started
+INFO ===> Test test_change_currency_dollar finished at 2024-09-06 11:24:01.534869
+INFO ===> Test test_change_currency_dollar started at 2024-09-06 11:25:07.335734
+INFO Browser chrome started
+INFO ===> Test test_change_currency_dollar finished at 2024-09-06 11:25:14.134015
+INFO ===> Test test_change_currency_dollar started at 2024-09-06 11:26:44.304311
+INFO Browser chrome started
+INFO ===> Test test_change_currency_dollar finished at 2024-09-06 11:26:50.373670
+INFO ===> Test test_change_currency_dollar started at 2024-09-06 11:38:51.258552
+INFO Browser chrome started
+INFO ===> Test test_change_currency_dollar finished at 2024-09-06 11:38:57.708064
+INFO ===> Test test_change_currency_dollar started at 2024-09-06 11:44:08.271635
+INFO Browser chrome started
+INFO ===> Test test_change_currency_dollar finished at 2024-09-06 11:44:15.438257

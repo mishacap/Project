@@ -1,0 +1,30 @@
+INFO ===> Test test_change_currency_pound started at 2024-09-06 11:14:26.870185
+INFO Browser chrome started
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div > ul > li:nth-child(2) > a')
+INFO ===> Test test_change_currency_pound finished at 2024-09-06 11:14:29.770707
+INFO ===> Test test_change_currency_pound started at 2024-09-06 11:19:15.609956
+INFO Browser chrome started
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div > ul > li:nth-child(2) > a')
+INFO ===> Test test_change_currency_pound finished at 2024-09-06 11:19:18.511082
+INFO ===> Test test_change_currency_pound started at 2024-09-06 11:21:01.083590
+INFO Browser chrome started
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div > ul > li:nth-child(2) > a')
+INFO ===> Test test_change_currency_pound finished at 2024-09-06 11:21:04.035833
+INFO ===> Test test_change_currency_pound started at 2024-09-06 11:23:55.633730
+INFO Browser chrome started
+INFO ===> Test test_change_currency_pound finished at 2024-09-06 11:23:58.579178
+INFO ===> Test test_change_currency_pound started at 2024-09-06 11:24:58.700571
+INFO Browser chrome started
+INFO ===> Test test_change_currency_pound finished at 2024-09-06 11:25:12.285676
+INFO ===> Test test_change_currency_pound started at 2024-09-06 11:26:35.394276
+INFO Browser chrome started
+INFO ===> Test test_change_currency_pound finished at 2024-09-06 11:26:46.927065
+INFO ===> Test test_change_currency_pound started at 2024-09-06 11:38:42.702221
+INFO Browser chrome started
+INFO ===> Test test_change_currency_pound finished at 2024-09-06 11:38:55.782864
+INFO ===> Test test_change_currency_pound started at 2024-09-06 11:44:00.288651
+INFO Browser chrome started
+INFO ===> Test test_change_currency_pound finished at 2024-09-06 11:44:10.763384

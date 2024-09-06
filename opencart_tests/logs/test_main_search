@@ -1,0 +1,27 @@
+INFO ===> Test test_main_search started at 2024-09-06 11:14:09.528802
+INFO Browser chrome started
+INFO MainPage: Clicking element: ('css selector', '#search > button')
+INFO ===> Test test_main_search finished at 2024-09-06 11:14:12.263613
+INFO ===> Test test_main_search started at 2024-09-06 11:18:58.080674
+INFO Browser chrome started
+INFO MainPage: Clicking element: ('css selector', '#search > button')
+INFO ===> Test test_main_search finished at 2024-09-06 11:19:00.915691
+INFO ===> Test test_main_search started at 2024-09-06 11:20:42.997153
+INFO Browser chrome started
+INFO MainPage: Clicking element: ('css selector', '#search > button')
+INFO ===> Test test_main_search finished at 2024-09-06 11:20:45.765649
+INFO ===> Test test_main_search started at 2024-09-06 11:23:37.987730
+INFO Browser chrome started
+INFO ===> Test test_main_search finished at 2024-09-06 11:23:40.625704
+INFO ===> Test test_main_search started at 2024-09-06 11:24:58.699587
+INFO Browser chrome started
+INFO ===> Test test_main_search finished at 2024-09-06 11:25:12.731050
+INFO ===> Test test_main_search started at 2024-09-06 11:26:35.388828
+INFO Browser chrome started
+INFO ===> Test test_main_search finished at 2024-09-06 11:26:46.449150
+INFO ===> Test test_main_search started at 2024-09-06 11:38:42.709835
+INFO Browser chrome started
+INFO ===> Test test_main_search finished at 2024-09-06 11:38:55.973334
+INFO ===> Test test_main_search started at 2024-09-06 11:44:00.295581
+INFO Browser chrome started
+INFO ===> Test test_main_search finished at 2024-09-06 11:44:11.117184

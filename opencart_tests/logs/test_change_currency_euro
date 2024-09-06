@@ -1,0 +1,30 @@
+INFO ===> Test test_change_currency_euro started at 2024-09-06 11:14:23.903788
+INFO Browser chrome started
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div > ul > li:nth-child(1) > a')
+INFO ===> Test test_change_currency_euro finished at 2024-09-06 11:14:26.848403
+INFO ===> Test test_change_currency_euro started at 2024-09-06 11:19:12.477437
+INFO Browser chrome started
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div > ul > li:nth-child(1) > a')
+INFO ===> Test test_change_currency_euro finished at 2024-09-06 11:19:15.586045
+INFO ===> Test test_change_currency_euro started at 2024-09-06 11:20:57.847525
+INFO Browser chrome started
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div > ul > li:nth-child(1) > a')
+INFO ===> Test test_change_currency_euro finished at 2024-09-06 11:21:01.061720
+INFO ===> Test test_change_currency_euro started at 2024-09-06 11:23:52.672022
+INFO Browser chrome started
+INFO ===> Test test_change_currency_euro finished at 2024-09-06 11:23:55.617996
+INFO ===> Test test_change_currency_euro started at 2024-09-06 11:24:58.697932
+INFO Browser chrome started
+INFO ===> Test test_change_currency_euro finished at 2024-09-06 11:25:12.668351
+INFO ===> Test test_change_currency_euro started at 2024-09-06 11:26:35.380941
+INFO Browser chrome started
+INFO ===> Test test_change_currency_euro finished at 2024-09-06 11:26:46.254285
+INFO ===> Test test_change_currency_euro started at 2024-09-06 11:38:42.713466
+INFO Browser chrome started
+INFO ===> Test test_change_currency_euro finished at 2024-09-06 11:38:54.614673
+INFO ===> Test test_change_currency_euro started at 2024-09-06 11:44:00.290056
+INFO Browser chrome started
+INFO ===> Test test_change_currency_euro finished at 2024-09-06 11:44:14.147049

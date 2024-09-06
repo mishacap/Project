@@ -1,0 +1,45 @@
+INFO ===> Test test_add_to_wishlist started at 2024-09-06 11:14:41.926196
+INFO Browser chrome started
+INFO MainPage: Clicking element: ('css selector', '#top > div > div.nav.float-end > ul > li:nth-child(2) > div > a > span')
+INFO MainPage: Clicking element: ('css selector', '#top > div > div.nav.float-end > ul > li:nth-child(2) > div > ul > li:nth-child(2) > a')
+INFO MainPage: Clicking element: ('css selector', '#form-login > div.text-end > button')
+INFO MainPage: Clicking element: ('css selector', '#logo > a > img')
+INFO ProductPage: Clicking element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO ProductPage: Clicking element: ('css selector', '#content > div.row.mb-3 > div:nth-child(2) > form > div > button:nth-child(1)')
+INFO ProductPage: Clicking element: ('css selector', '#alert > div > a:nth-child(3)')
+INFO ===> Test test_add_to_wishlist finished at 2024-09-06 11:14:50.457078
+INFO ===> Test test_add_to_wishlist started at 2024-09-06 11:19:30.729280
+INFO Browser chrome started
+INFO MainPage: Clicking element: ('css selector', '#top > div > div.nav.float-end > ul > li:nth-child(2) > div > a > span')
+INFO MainPage: Clicking element: ('css selector', '#top > div > div.nav.float-end > ul > li:nth-child(2) > div > ul > li:nth-child(2) > a')
+INFO MainPage: Clicking element: ('css selector', '#form-login > div.text-end > button')
+INFO MainPage: Clicking element: ('css selector', '#logo > a > img')
+INFO ProductPage: Clicking element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO ProductPage: Clicking element: ('css selector', '#content > div.row.mb-3 > div:nth-child(2) > form > div > button:nth-child(1)')
+INFO ProductPage: Clicking element: ('css selector', '#alert > div > a:nth-child(3)')
+INFO ===> Test test_add_to_wishlist finished at 2024-09-06 11:19:39.093703
+INFO ===> Test test_add_to_wishlist started at 2024-09-06 11:21:16.150959
+INFO Browser chrome started
+INFO MainPage: Clicking element: ('css selector', '#top > div > div.nav.float-end > ul > li:nth-child(2) > div > a > span')
+INFO MainPage: Clicking element: ('css selector', '#top > div > div.nav.float-end > ul > li:nth-child(2) > div > ul > li:nth-child(2) > a')
+INFO MainPage: Clicking element: ('css selector', '#form-login > div.text-end > button')
+INFO MainPage: Clicking element: ('css selector', '#logo > a > img')
+INFO ProductPage: Clicking element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO ProductPage: Clicking element: ('css selector', '#content > div.row.mb-3 > div:nth-child(2) > form > div > button:nth-child(1)')
+INFO ProductPage: Clicking element: ('css selector', '#alert > div > a:nth-child(3)')
+INFO ===> Test test_add_to_wishlist finished at 2024-09-06 11:21:25.080167
+INFO ===> Test test_add_to_wishlist started at 2024-09-06 11:24:10.905244
+INFO Browser chrome started
+INFO ===> Test test_add_to_wishlist finished at 2024-09-06 11:24:19.496364
+INFO ===> Test test_add_to_wishlist started at 2024-09-06 11:25:09.073240
+INFO Browser chrome started
+INFO ===> Test test_add_to_wishlist finished at 2024-09-06 11:25:20.583640
+INFO ===> Test test_add_to_wishlist started at 2024-09-06 11:26:47.573440
+INFO Browser chrome started
+INFO ===> Test test_add_to_wishlist finished at 2024-09-06 11:26:57.064768
+INFO ===> Test test_add_to_wishlist started at 2024-09-06 11:38:53.606740
+INFO Browser chrome started
+INFO ===> Test test_add_to_wishlist finished at 2024-09-06 11:39:03.811024
+INFO ===> Test test_add_to_wishlist started at 2024-09-06 11:44:11.254305
+INFO Browser chrome started
+INFO ===> Test test_add_to_wishlist finished at 2024-09-06 11:44:21.933367

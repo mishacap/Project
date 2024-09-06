@@ -1,0 +1,36 @@
+INFO ===> Test test_add_featured_to_cart started at 2024-09-06 11:14:32.810500
+INFO Browser chrome started
+INFO ProductPage: Clicking element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO ProductPage: Clicking element: ('css selector', '#button-cart')
+INFO ProductPage: Clicking element: ('css selector', '#alert > div > button')
+INFO ProductPage: Clicking element: ('css selector', '#header-cart > div > button')
+INFO ===> Test test_add_featured_to_cart finished at 2024-09-06 11:14:37.391572
+INFO ===> Test test_add_featured_to_cart started at 2024-09-06 11:19:21.611523
+INFO Browser chrome started
+INFO ProductPage: Clicking element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO ProductPage: Clicking element: ('css selector', '#button-cart')
+INFO ProductPage: Clicking element: ('css selector', '#alert > div > button')
+INFO ProductPage: Clicking element: ('css selector', '#header-cart > div > button')
+INFO ===> Test test_add_featured_to_cart finished at 2024-09-06 11:19:26.194815
+INFO ===> Test test_add_featured_to_cart started at 2024-09-06 11:21:07.114154
+INFO Browser chrome started
+INFO ProductPage: Clicking element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO ProductPage: Clicking element: ('css selector', '#button-cart')
+INFO ProductPage: Clicking element: ('css selector', '#alert > div > button')
+INFO ProductPage: Clicking element: ('css selector', '#header-cart > div > button')
+INFO ===> Test test_add_featured_to_cart finished at 2024-09-06 11:21:11.669407
+INFO ===> Test test_add_featured_to_cart started at 2024-09-06 11:24:01.554382
+INFO Browser chrome started
+INFO ===> Test test_add_featured_to_cart finished at 2024-09-06 11:24:06.315416
+INFO ===> Test test_add_featured_to_cart started at 2024-09-06 11:25:12.760739
+INFO Browser chrome started
+INFO ===> Test test_add_featured_to_cart finished at 2024-09-06 11:25:18.347868
+INFO ===> Test test_add_featured_to_cart started at 2024-09-06 11:26:46.451242
+INFO Browser chrome started
+INFO ===> Test test_add_featured_to_cart finished at 2024-09-06 11:26:52.834755
+INFO ===> Test test_add_featured_to_cart started at 2024-09-06 11:38:55.992182
+INFO Browser chrome started
+INFO ===> Test test_add_featured_to_cart finished at 2024-09-06 11:39:01.198748
+INFO ===> Test test_add_featured_to_cart started at 2024-09-06 11:44:11.123271
+INFO Browser chrome started
+INFO ===> Test test_add_featured_to_cart finished at 2024-09-06 11:44:18.153898
