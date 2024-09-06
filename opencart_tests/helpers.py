@@ -2,7 +2,7 @@ import csv
 
 from faker import Faker
 import random
-from files import CSV_FILE_PATH, ADMIN_CREDENTIALS
+from opencart_tests.files import CSV_FILE_PATH, ADMIN_CREDENTIALS
 
 
 def get_fake_product():

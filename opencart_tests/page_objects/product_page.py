@@ -1,7 +1,7 @@
 
 import allure
 from selenium.webdriver.common.by import By
-from page_objects.base_page import BasePage
+from opencart_tests.page_objects.base_page import BasePage
 import time
 
 class ProductPage(BasePage):

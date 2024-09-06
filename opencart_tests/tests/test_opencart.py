@@ -1,14 +1,12 @@
-import time
-
 import allure
-from conftest import browser, base_url
-from helpers import get_fake_product, get_user_data, get_random_user, get_credentials
-from page_objects.administration_page import AdministrationPage
-from page_objects.currency_page import CurrencyPage
-from page_objects.main_page import MainPage
-from page_objects.product_page import ProductPage
-from page_objects.registration_page import RegistrationPage
 
+from opencart_tests.helpers import get_fake_product, get_user_data, get_random_user, get_credentials
+
+from opencart_tests.page_objects.registration_page import RegistrationPage
+from opencart_tests.page_objects.product_page import ProductPage
+from opencart_tests.page_objects.main_page import MainPage
+from opencart_tests.page_objects.currency_page import CurrencyPage
+from opencart_tests.page_objects.administration_page import AdministrationPage
 
 @allure.epic("Opencart")
 @allure.feature("Main page")

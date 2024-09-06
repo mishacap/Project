@@ -1,6 +1,6 @@
 import allure
 from selenium.webdriver.common.by import By
-from page_objects.base_page import BasePage
+from opencart_tests.page_objects.base_page import BasePage
 
 class RegistrationPage(BasePage):
     FIRST_NAME_INPUT = By.CSS_SELECTOR, "#input-firstname"
