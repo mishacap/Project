@@ -1,0 +1,3 @@
+INFO     test_registration_new_user:conftest.py:48 ===> Test test_registration_new_user started at 2024-09-07 14:47:07.262262
+INFO     test_registration_new_user:conftest.py:70 Browser chrome started
+INFO     test_registration_new_user:conftest.py:84 ===> Test test_registration_new_user finished at 2024-09-07 14:47:16.756038

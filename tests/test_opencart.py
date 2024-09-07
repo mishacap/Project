@@ -42,7 +42,7 @@ def test_registration_elements(browser, base_url):
 
 @allure.epic("Opencart")
 @allure.feature("Registration page")
-@allure.story("Elements")
+@allure.story("Registration")
 @allure.title("Registration new user")
 def test_registration_new_user(browser, base_url):
     browser.get(f"{base_url}:8081/index.php?route=account/register")
@@ -53,9 +53,9 @@ def test_registration_new_user(browser, base_url):
     assert "Register Account" in registration_status
 
 @allure.epic("Opencart")
-@allure.feature("Registration page")
-@allure.story("Registration")
-@allure.title("New user registration")
+@allure.feature("Main page")
+@allure.story("Login")
+@allure.title("User login")
 def test_user_login(browser, base_url):
     browser.get(f"{base_url}:8081/")
     main_page = MainPage(browser)
@@ -63,8 +63,8 @@ def test_user_login(browser, base_url):
     main_page.main_login(*user_data)
 
 @allure.epic("Opencart")
-@allure.feature("Login page --> Admin page")
-@allure.story("Navigate")
+@allure.feature("Admin page")
+@allure.story("Login")
 @allure.title("Administrator account login")
 def test_administration_login_logout(browser, base_url):
     browser.get(f"{base_url}:8081/administration/")
@@ -75,7 +75,7 @@ def test_administration_login_logout(browser, base_url):
 
 @allure.epic("Opencart")
 @allure.feature("Main page")
-@allure.story("Elements")
+@allure.story("Сurrency")
 @allure.title("Сurrency change to euro")
 def test_change_currency_euro(browser, base_url):
     browser.get(f"{base_url}:8081/")
@@ -90,7 +90,7 @@ def test_change_currency_euro(browser, base_url):
 
 @allure.epic("Opencart")
 @allure.feature("Main page")
-@allure.story("Elements")
+@allure.story("Сurrency")
 @allure.title("Сurrency change to pound")
 def test_change_currency_pound(browser, base_url):
     browser.get(f"{base_url}:8081/")
@@ -105,7 +105,7 @@ def test_change_currency_pound(browser, base_url):
 
 @allure.epic("Opencart")
 @allure.feature("Main page")
-@allure.story("Elements")
+@allure.story("Сurrency")
 @allure.title("Сurrency change to dollar")
 def test_change_currency_dollar(browser, base_url):
     browser.get(f"{base_url}:8081/")
@@ -119,8 +119,8 @@ def test_change_currency_dollar(browser, base_url):
     assert "$" in currency_featured
 
 @allure.epic("Opencart")
-@allure.feature("Main page --> Product page")
-@allure.story("Navigate")
+@allure.feature("Product page")
+@allure.story("Addition")
 @allure.title("Add to cart")
 def test_add_featured_to_cart(browser, base_url):
     browser.get(f"{base_url}:8081/")
@@ -131,8 +131,8 @@ def test_add_featured_to_cart(browser, base_url):
     product_page.item_in_cart_check()
 
 @allure.epic("Opencart")
-@allure.feature("Main page --> Product page")
-@allure.story("Navigate")
+@allure.feature("Product page")
+@allure.story("Addition")
 @allure.title("Add to comparison")
 def test_add_to_compare(browser, base_url):
     browser.get(f"{base_url}:8081/")
@@ -143,8 +143,8 @@ def test_add_to_compare(browser, base_url):
     product_page.comparison_check()
 
 @allure.epic("Opencart")
-@allure.feature("Main page --> Product page")
-@allure.story("Navigate")
+@allure.feature("Product page")
+@allure.story("Addition")
 @allure.title("Add to wishlist")
 def test_add_to_wishlist(browser, base_url):
     browser.get(f"{base_url}:8081/")

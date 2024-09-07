@@ -1,0 +1,15 @@
+INFO     test_main_search:conftest.py:48 ===> Test test_main_search started at 2024-09-07 14:42:20.860384
+INFO     test_main_search:conftest.py:70 Browser chrome started
+INFO     test_main_search:base_page.py:30 MainPage: Input Aroun in input ('css selector', '#search > input')
+INFO     test_main_search:base_page.py:16 MainPage: Get element: ('css selector', '#search > input')
+INFO     test_main_search:base_page.py:16 MainPage: Get element: ('css selector', '#search > input')
+INFO     test_main_search:base_page.py:16 MainPage: Get element: ('css selector', '#search > input')
+INFO     test_main_search:base_page.py:16 MainPage: Get element: ('css selector', '#search > input')
+INFO     test_main_search:base_page.py:16 MainPage: Get element: ('css selector', '#search > input')
+INFO     test_main_search:base_page.py:16 MainPage: Get element: ('css selector', '#search > input')
+INFO     test_main_search:base_page.py:16 MainPage: Get element: ('css selector', '#search > input')
+INFO     test_main_search:base_page.py:26 MainPage: Clicking element: ('css selector', '#search > button')
+INFO     test_main_search:base_page.py:16 MainPage: Get element: ('css selector', '#search > button')
+INFO     test_main_search:base_page.py:16 MainPage: Get element: ('css selector', '#product-search > ul > li:nth-child(2) > a')
+INFO     test_main_search:base_page.py:16 MainPage: Get element: ('css selector', '#content > h1')
+INFO     test_main_search:conftest.py:84 ===> Test test_main_search finished at 2024-09-07 14:42:31.527617

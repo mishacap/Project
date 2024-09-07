@@ -1,0 +1,13 @@
+INFO     test_add_featured_to_cart:conftest.py:48 ===> Test test_add_featured_to_cart started at 2024-09-07 14:36:06.753407
+INFO     test_add_featured_to_cart:conftest.py:70 Browser chrome started
+INFO     test_add_featured_to_cart:base_page.py:26 ProductPage: Clicking element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO     test_add_featured_to_cart:base_page.py:16 ProductPage: Get element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO     test_add_featured_to_cart:base_page.py:26 ProductPage: Clicking element: ('css selector', '#button-cart')
+INFO     test_add_featured_to_cart:base_page.py:16 ProductPage: Get element: ('css selector', '#button-cart')
+INFO     test_add_featured_to_cart:base_page.py:26 ProductPage: Clicking element: ('css selector', '#alert > div > button')
+INFO     test_add_featured_to_cart:base_page.py:16 ProductPage: Get element: ('css selector', '#alert > div > button')
+INFO     test_add_featured_to_cart:base_page.py:37 ProductPage: Wait element: ('css selector', '#header-cart > div > button')
+INFO     test_add_featured_to_cart:base_page.py:26 ProductPage: Clicking element: ('css selector', '#header-cart > div > button')
+INFO     test_add_featured_to_cart:base_page.py:16 ProductPage: Get element: ('css selector', '#header-cart > div > button')
+INFO     test_add_featured_to_cart:base_page.py:37 ProductPage: Wait element: ('css selector', '#header-cart > div > ul > li > table > tbody > tr > td:nth-child(5) > form > button')
+INFO     test_add_featured_to_cart:conftest.py:84 ===> Test test_add_featured_to_cart finished at 2024-09-07 14:36:12.712003

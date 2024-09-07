@@ -1,0 +1,45 @@
+INFO ===> Test test_main_elements started at 2024-09-07 14:28:31.755893
+INFO Browser chrome started
+INFO MainPage: Wait element: ('css selector', '#header-cart > div > button')
+INFO MainPage: Wait element: ('css selector', '#search > input')
+INFO MainPage: Wait element: ('css selector', '#search > button')
+INFO MainPage: Wait element: ('css selector', '#narbar-menu')
+INFO ===> Test test_main_elements finished at 2024-09-07 14:28:34.750162
+INFO ===> Test test_main_elements started at 2024-09-07 14:32:24.215913
+INFO Browser chrome started
+INFO MainPage: Wait element: ('css selector', '#header-cart > div > button')
+INFO MainPage: Wait element: ('css selector', '#search > input')
+INFO MainPage: Wait element: ('css selector', '#search > button')
+INFO MainPage: Wait element: ('css selector', '#narbar-menu')
+INFO ===> Test test_main_elements finished at 2024-09-07 14:32:31.549798
+INFO ===> Test test_main_elements started at 2024-09-07 14:35:57.109047
+INFO Browser chrome started
+INFO MainPage: Wait element: ('css selector', '#header-cart > div > button')
+INFO MainPage: Wait element: ('css selector', '#search > input')
+INFO MainPage: Wait element: ('css selector', '#search > button')
+INFO MainPage: Wait element: ('css selector', '#narbar-menu')
+INFO ===> Test test_main_elements finished at 2024-09-07 14:36:05.137085
+INFO ===> Test test_main_elements started at 2024-09-07 14:38:35.949477
+INFO Browser chrome started
+INFO MainPage: Wait element: ('css selector', '#header-cart > div > button')
+INFO MainPage: Wait element: ('css selector', '#search > input')
+INFO MainPage: Wait element: ('css selector', '#search > button')
+INFO MainPage: Wait element: ('css selector', '#narbar-menu')
+INFO ===> Test test_main_elements finished at 2024-09-07 14:38:44.240660
+INFO ===> Test test_main_elements started at 2024-09-07 14:42:20.873112
+INFO Browser chrome started
+INFO MainPage: Wait element: ('css selector', '#header-cart > div > button')
+INFO MainPage: Wait element: ('css selector', '#search > input')
+INFO MainPage: Wait element: ('css selector', '#search > button')
+INFO MainPage: Wait element: ('css selector', '#narbar-menu')
+INFO ===> Test test_main_elements finished at 2024-09-07 14:42:28.105863
+INFO ===> Test test_main_elements started at 2024-09-07 14:44:36.155068
+INFO Browser chrome started
+INFO MainPage: Wait element: ('css selector', '#header-cart > div > button')
+INFO MainPage: Wait element: ('css selector', '#search > input')
+INFO MainPage: Wait element: ('css selector', '#search > button')
+INFO MainPage: Wait element: ('css selector', '#narbar-menu')
+INFO ===> Test test_main_elements finished at 2024-09-07 14:44:44.306976
+INFO ===> Test test_main_elements started at 2024-09-07 14:47:07.275151
+INFO Browser chrome started
+INFO ===> Test test_main_elements finished at 2024-09-07 14:47:15.184493

@@ -1,0 +1,7 @@
+INFO     test_main_elements:conftest.py:48 ===> Test test_main_elements started at 2024-09-07 14:35:57.109047
+INFO     test_main_elements:conftest.py:70 Browser chrome started
+INFO     test_main_elements:base_page.py:37 MainPage: Wait element: ('css selector', '#header-cart > div > button')
+INFO     test_main_elements:base_page.py:37 MainPage: Wait element: ('css selector', '#search > input')
+INFO     test_main_elements:base_page.py:37 MainPage: Wait element: ('css selector', '#search > button')
+INFO     test_main_elements:base_page.py:37 MainPage: Wait element: ('css selector', '#narbar-menu')
+INFO     test_main_elements:conftest.py:84 ===> Test test_main_elements finished at 2024-09-07 14:36:05.137085

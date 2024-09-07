@@ -1,0 +1,81 @@
+INFO ===> Test test_add_featured_to_cart started at 2024-09-07 14:28:46.140167
+INFO Browser chrome started
+INFO ProductPage: Clicking element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO ProductPage: Get element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO ProductPage: Clicking element: ('css selector', '#button-cart')
+INFO ProductPage: Get element: ('css selector', '#button-cart')
+INFO ProductPage: Clicking element: ('css selector', '#alert > div > button')
+INFO ProductPage: Get element: ('css selector', '#alert > div > button')
+INFO ProductPage: Wait element: ('css selector', '#header-cart > div > button')
+INFO ProductPage: Clicking element: ('css selector', '#header-cart > div > button')
+INFO ProductPage: Get element: ('css selector', '#header-cart > div > button')
+INFO ProductPage: Wait element: ('css selector', '#header-cart > div > ul > li > table > tbody > tr > td:nth-child(5) > form > button')
+INFO ===> Test test_add_featured_to_cart finished at 2024-09-07 14:28:50.875064
+INFO ===> Test test_add_featured_to_cart started at 2024-09-07 14:32:35.167790
+INFO Browser chrome started
+INFO ProductPage: Clicking element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO ProductPage: Get element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO ProductPage: Clicking element: ('css selector', '#button-cart')
+INFO ProductPage: Get element: ('css selector', '#button-cart')
+INFO ProductPage: Clicking element: ('css selector', '#alert > div > button')
+INFO ProductPage: Get element: ('css selector', '#alert > div > button')
+INFO ProductPage: Wait element: ('css selector', '#header-cart > div > button')
+INFO ProductPage: Clicking element: ('css selector', '#header-cart > div > button')
+INFO ProductPage: Get element: ('css selector', '#header-cart > div > button')
+INFO ProductPage: Wait element: ('css selector', '#header-cart > div > ul > li > table > tbody > tr > td:nth-child(5) > form > button')
+INFO ===> Test test_add_featured_to_cart finished at 2024-09-07 14:32:40.581945
+INFO ===> Test test_add_featured_to_cart started at 2024-09-07 14:36:06.753407
+INFO Browser chrome started
+INFO ProductPage: Clicking element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO ProductPage: Get element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO ProductPage: Clicking element: ('css selector', '#button-cart')
+INFO ProductPage: Get element: ('css selector', '#button-cart')
+INFO ProductPage: Clicking element: ('css selector', '#alert > div > button')
+INFO ProductPage: Get element: ('css selector', '#alert > div > button')
+INFO ProductPage: Wait element: ('css selector', '#header-cart > div > button')
+INFO ProductPage: Clicking element: ('css selector', '#header-cart > div > button')
+INFO ProductPage: Get element: ('css selector', '#header-cart > div > button')
+INFO ProductPage: Wait element: ('css selector', '#header-cart > div > ul > li > table > tbody > tr > td:nth-child(5) > form > button')
+INFO ===> Test test_add_featured_to_cart finished at 2024-09-07 14:36:12.712003
+INFO ===> Test test_add_featured_to_cart started at 2024-09-07 14:38:46.622253
+INFO Browser chrome started
+INFO ProductPage: Clicking element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO ProductPage: Get element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO ProductPage: Clicking element: ('css selector', '#button-cart')
+INFO ProductPage: Get element: ('css selector', '#button-cart')
+INFO ProductPage: Clicking element: ('css selector', '#alert > div > button')
+INFO ProductPage: Get element: ('css selector', '#alert > div > button')
+INFO ProductPage: Wait element: ('css selector', '#header-cart > div > button')
+INFO ProductPage: Clicking element: ('css selector', '#header-cart > div > button')
+INFO ProductPage: Get element: ('css selector', '#header-cart > div > button')
+INFO ProductPage: Wait element: ('css selector', '#header-cart > div > ul > li > table > tbody > tr > td:nth-child(5) > form > button')
+INFO ===> Test test_add_featured_to_cart finished at 2024-09-07 14:38:52.211657
+INFO ===> Test test_add_featured_to_cart started at 2024-09-07 14:42:31.557432
+INFO Browser chrome started
+INFO ProductPage: Clicking element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO ProductPage: Get element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO ProductPage: Clicking element: ('css selector', '#button-cart')
+INFO ProductPage: Get element: ('css selector', '#button-cart')
+INFO ProductPage: Clicking element: ('css selector', '#alert > div > button')
+INFO ProductPage: Get element: ('css selector', '#alert > div > button')
+INFO ProductPage: Wait element: ('css selector', '#header-cart > div > button')
+INFO ProductPage: Clicking element: ('css selector', '#header-cart > div > button')
+INFO ProductPage: Get element: ('css selector', '#header-cart > div > button')
+INFO ProductPage: Wait element: ('css selector', '#header-cart > div > ul > li > table > tbody > tr > td:nth-child(5) > form > button')
+INFO ===> Test test_add_featured_to_cart finished at 2024-09-07 14:42:36.449880
+INFO ===> Test test_add_featured_to_cart started at 2024-09-07 14:44:47.585911
+INFO Browser chrome started
+INFO ProductPage: Clicking element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO ProductPage: Get element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO ProductPage: Clicking element: ('css selector', '#button-cart')
+INFO ProductPage: Get element: ('css selector', '#button-cart')
+INFO ProductPage: Clicking element: ('css selector', '#alert > div > button')
+INFO ProductPage: Get element: ('css selector', '#alert > div > button')
+INFO ProductPage: Wait element: ('css selector', '#header-cart > div > button')
+INFO ProductPage: Clicking element: ('css selector', '#header-cart > div > button')
+INFO ProductPage: Get element: ('css selector', '#header-cart > div > button')
+INFO ProductPage: Wait element: ('css selector', '#header-cart > div > ul > li > table > tbody > tr > td:nth-child(5) > form > button')
+INFO ===> Test test_add_featured_to_cart finished at 2024-09-07 14:44:52.434444
+INFO ===> Test test_add_featured_to_cart started at 2024-09-07 14:47:17.953015
+INFO Browser chrome started
+INFO ===> Test test_add_featured_to_cart finished at 2024-09-07 14:47:23.699243

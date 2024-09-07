@@ -1,0 +1,3 @@
+INFO     test_add_to_compare:conftest.py:48 ===> Test test_add_to_compare started at 2024-09-07 14:47:13.796684
+INFO     test_add_to_compare:conftest.py:70 Browser chrome started
+INFO     test_add_to_compare:conftest.py:84 ===> Test test_add_to_compare finished at 2024-09-07 14:47:22.115250

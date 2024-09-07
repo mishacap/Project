@@ -1,0 +1,88 @@
+INFO ===> Test test_main_search started at 2024-09-07 14:28:34.766528
+INFO Browser chrome started
+INFO MainPage: Input Not a in input ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Clicking element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#product-search > ul > li:nth-child(2) > a')
+INFO MainPage: Get element: ('css selector', '#content > h1')
+INFO ===> Test test_main_search finished at 2024-09-07 14:28:38.759597
+INFO ===> Test test_main_search started at 2024-09-07 14:32:24.212960
+INFO Browser chrome started
+INFO MainPage: Input Art beh in input ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Clicking element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#product-search > ul > li:nth-child(2) > a')
+INFO MainPage: Get element: ('css selector', '#content > h1')
+INFO ===> Test test_main_search finished at 2024-09-07 14:32:35.133178
+INFO ===> Test test_main_search started at 2024-09-07 14:35:57.118559
+INFO Browser chrome started
+INFO MainPage: Input Americ in input ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Clicking element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#product-search > ul > li:nth-child(2) > a')
+INFO MainPage: Get element: ('css selector', '#content > h1')
+INFO ===> Test test_main_search finished at 2024-09-07 14:36:06.726415
+INFO ===> Test test_main_search started at 2024-09-07 14:38:35.940822
+INFO Browser chrome started
+INFO MainPage: Input H in input ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Clicking element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#product-search > ul > li:nth-child(2) > a')
+INFO MainPage: Get element: ('css selector', '#content > h1')
+INFO ===> Test test_main_search finished at 2024-09-07 14:38:46.574603
+INFO ===> Test test_main_search started at 2024-09-07 14:42:20.860384
+INFO Browser chrome started
+INFO MainPage: Input Aroun in input ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Clicking element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#product-search > ul > li:nth-child(2) > a')
+INFO MainPage: Get element: ('css selector', '#content > h1')
+INFO ===> Test test_main_search finished at 2024-09-07 14:42:31.527617
+INFO ===> Test test_main_search started at 2024-09-07 14:44:36.132810
+INFO Browser chrome started
+INFO MainPage: Input O in input ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Clicking element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#product-search > ul > li:nth-child(2) > a')
+INFO MainPage: Get element: ('css selector', '#content > h1')
+INFO ===> Test test_main_search finished at 2024-09-07 14:44:47.563641
+INFO ===> Test test_main_search started at 2024-09-07 14:47:07.271212
+INFO Browser chrome started
+INFO ===> Test test_main_search finished at 2024-09-07 14:47:17.917703
