@@ -70,3 +70,12 @@ INFO ===> Test test_add_to_compare finished at 2024-09-07 14:47:22.115250
 INFO ===> Test test_add_to_compare started at 2024-09-07 14:56:35.629546
 INFO Browser chrome started
 INFO ===> Test test_add_to_compare finished at 2024-09-07 14:56:42.931471
+INFO ===> Test test_add_to_compare started at 2024-09-07 15:23:22.908764
+INFO ===> Test test_add_to_compare started at 2024-09-07 15:34:10.489498
+INFO ===> Test test_add_to_compare started at 2024-09-07 15:42:44.511046
+INFO ===> Test test_add_to_compare started at 2024-09-07 15:44:54.608667
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="e78159a08fcd0dcec553203991102b9b")> started
+INFO ===> Test test_add_to_compare started at 2024-09-07 15:48:30.514389
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="28ec98bbe8082a179d6db6aae593d110")> started
+INFO ===> Test test_add_to_compare started at 2024-09-07 15:49:16.598228
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="1be915bf58a2c4e82ad95faa1285ff06")> started

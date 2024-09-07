@@ -355,3 +355,14 @@ INFO ===> Test test_registration_new_user finished at 2024-09-07 14:47:16.756038
 INFO ===> Test test_registration_new_user started at 2024-09-07 14:56:27.013260
 INFO Browser chrome started
 INFO ===> Test test_registration_new_user finished at 2024-09-07 14:56:37.084218
+INFO ===> Test test_registration_new_user started at 2024-09-07 15:23:19.013915
+INFO ===> Test test_registration_new_user started at 2024-09-07 15:27:24.991311
+INFO Browser chrome started
+INFO ===> Test test_registration_new_user started at 2024-09-07 15:33:32.853022
+INFO ===> Test test_registration_new_user started at 2024-09-07 15:42:38.392318
+INFO ===> Test test_registration_new_user started at 2024-09-07 15:44:38.504457
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="0796cef6e4ef63d6740dfb18ed1b31dd")> started
+INFO ===> Test test_registration_new_user started at 2024-09-07 15:48:15.806233
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="4b14073d1ad896f300bcf2872c93863a")> started
+INFO ===> Test test_registration_new_user started at 2024-09-07 15:48:59.596777
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="4122bdeeddcf84b20662229f8cc53de8")> started

@@ -70,3 +70,14 @@ INFO ===> Test test_change_currency_pound finished at 2024-09-07 14:47:18.817250
 INFO ===> Test test_change_currency_pound started at 2024-09-07 14:56:27.023207
 INFO Browser chrome started
 INFO ===> Test test_change_currency_pound finished at 2024-09-07 14:56:38.791553
+INFO ===> Test test_change_currency_pound started at 2024-09-07 15:23:19.013322
+INFO ===> Test test_change_currency_pound started at 2024-09-07 15:27:26.682941
+INFO Browser chrome started
+INFO ===> Test test_change_currency_pound started at 2024-09-07 15:33:51.373641
+INFO ===> Test test_change_currency_pound started at 2024-09-07 15:42:41.247731
+INFO ===> Test test_change_currency_pound started at 2024-09-07 15:44:47.484867
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="0b57edf18fc649613e3e4dca53c860e0")> started
+INFO ===> Test test_change_currency_pound started at 2024-09-07 15:48:23.343396
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="eb012a9ea8692b207cf5f6b1d380b4da")> started
+INFO ===> Test test_change_currency_pound started at 2024-09-07 15:49:08.677272
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="75a1f4357b6ef4fce15ef3d3b4fdd2ff")> started

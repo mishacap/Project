@@ -6,8 +6,8 @@ import json
 
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
-from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.firefox.service import Service as FirefoxService
+from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
 
 
@@ -50,20 +50,13 @@ def browser(request):
 
     executor_url = f"http://{executor}:4444/wd/hub"
 
-    logger.info("===> Test %s started at %s" % (request.node.name, datetime.datetime.now()))
-
     if browser_name == "chrome":
         options = ChromeOptions()
-        if headless_mode:
-            options.add_argument("headless=new")
-        browser = webdriver.Chrome(service=ChromeService(), options=ChromeOptions())
+        options.add_argument("headless=new")
+        options.set_capability("browserName", browser_name)
     elif browser_name == "firefox":
         options = FirefoxOptions()
-        if headless_mode:
-            options.add_argument("--headless")
-        browser = webdriver.Firefox(service=FirefoxService(), options=FirefoxOptions())
-    else:
-        raise ValueError(f"Browser {browser_name} not supported")
+        options.add_argument("--headless")
 
     driver = webdriver.Remote(
         command_executor=executor_url,
@@ -72,25 +65,16 @@ def browser(request):
 
     driver.maximize_window()
 
-    allure.attach(
-        name=browser.session_id,
-        body=json.dumps(browser.capabilities, indent=4, ensure_ascii=False),
-        attachment_type=allure.attachment_type.JSON
-    )
+    logger.info("===> Test %s started at %s" % (request.node.name, datetime.datetime.now()))
 
-    browser.logger = logger
-    logger.info("Browser %s started" % browser_name)
+    driver.log_level = 'INFO'
+    driver.logger = logger
+    driver.test_name = request.node.name
 
-    browser.maximize_window()
+    logger.info("Browser %s started" % driver)
 
-    yield browser
+    def finalizer():
+        driver.quit()
 
-    if request.node.status == "failed":
-        allure.attach(
-            name="failure_screenshot",
-            body=browser.get_screenshot_as_png(),
-            attachment_type=allure.attachment_type.PNG
-        )
-
-    browser.close()
-    logger.info("===> Test %s finished at %s" % (request.node.name, datetime.datetime.now()))
+    request.addfinalizer(finalizer)
+    return driver

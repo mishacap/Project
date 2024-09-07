@@ -58,3 +58,15 @@ INFO ===> Test test_registration_elements finished at 2024-09-07 14:47:13.775187
 INFO ===> Test test_registration_elements started at 2024-09-07 14:56:27.022754
 INFO Browser chrome started
 INFO ===> Test test_registration_elements finished at 2024-09-07 14:56:35.605791
+INFO ===> Test test_registration_elements started at 2024-09-07 15:23:19.015125
+INFO ===> Test test_registration_elements started at 2024-09-07 15:25:12.215680
+INFO ===> Test test_registration_elements started at 2024-09-07 15:27:23.560941
+INFO Browser chrome started
+INFO ===> Test test_registration_elements started at 2024-09-07 15:33:25.052927
+INFO ===> Test test_registration_elements started at 2024-09-07 15:42:35.624049
+INFO ===> Test test_registration_elements started at 2024-09-07 15:44:36.689458
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="2116f220c887c54ef54fc0a71cc694d8")> started
+INFO ===> Test test_registration_elements started at 2024-09-07 15:48:14.122190
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="b0c7cad3cf6c4080e1075e4f7af78fe8")> started
+INFO ===> Test test_registration_elements started at 2024-09-07 15:48:57.327677
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="c925310ffa4cbb91ff81cc86b0e79e86")> started

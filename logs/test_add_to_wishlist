@@ -321,3 +321,12 @@ INFO ===> Test test_add_to_wishlist finished at 2024-09-07 14:47:27.211964
 INFO ===> Test test_add_to_wishlist started at 2024-09-07 14:56:37.108039
 INFO Browser chrome started
 INFO ===> Test test_add_to_wishlist finished at 2024-09-07 14:56:47.365514
+INFO ===> Test test_add_to_wishlist started at 2024-09-07 15:23:22.868160
+INFO ===> Test test_add_to_wishlist started at 2024-09-07 15:34:11.763842
+INFO ===> Test test_add_to_wishlist started at 2024-09-07 15:42:44.592234
+INFO ===> Test test_add_to_wishlist started at 2024-09-07 15:44:56.881618
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="dfc3d95229c2a2dd52e563dc98c9c896")> started
+INFO ===> Test test_add_to_wishlist started at 2024-09-07 15:48:33.800619
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="80a1125ee86ca98b9e045be4546cfac4")> started
+INFO ===> Test test_add_to_wishlist started at 2024-09-07 15:49:19.864446
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="a816f97b73a0503da53dc486220e3401")> started
