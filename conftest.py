@@ -52,11 +52,29 @@ def browser(request):
 
     if browser_name == "chrome":
         options = ChromeOptions()
-        options.add_argument("headless=new")
+        # options.add_argument("headless=new")
         options.set_capability("browserName", browser_name)
     elif browser_name == "firefox":
         options = FirefoxOptions()
         options.add_argument("--headless")
+
+    caps = {
+        "browserName": browser_name,
+        # "browserVersion": version,
+        # "selenoid:options": {
+        #     "enableVNC": vnc,
+        #     "name": request.node.name,
+        #     "screenResolution": "1280x2000",
+        #     "enableVideo": video,
+        #     "enableLog": logs,
+        #     "timeZone": "Europe/Moscow",
+        #     "env": ["LANG=ru_RU.UTF-8", "LANGUAGE=ru:en", "LC_ALL=ru_RU.UTF-8"]
+        # },
+        # "acceptInsecureCerts": True,
+    }
+
+    for k, v in caps.items():
+        options.set_capability(k, v)
 
     driver = webdriver.Remote(
         command_executor=executor_url,
