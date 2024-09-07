@@ -67,3 +67,6 @@ INFO ===> Test test_change_currency_euro finished at 2024-09-07 14:44:47.362549
 INFO ===> Test test_change_currency_euro started at 2024-09-07 14:47:07.275096
 INFO Browser chrome started
 INFO ===> Test test_change_currency_euro finished at 2024-09-07 14:47:17.731240
+INFO ===> Test test_change_currency_euro started at 2024-09-07 14:56:27.025994
+INFO Browser chrome started
+INFO ===> Test test_change_currency_euro finished at 2024-09-07 14:56:37.938572

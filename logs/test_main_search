@@ -86,3 +86,6 @@ INFO ===> Test test_main_search finished at 2024-09-07 14:44:47.563641
 INFO ===> Test test_main_search started at 2024-09-07 14:47:07.271212
 INFO Browser chrome started
 INFO ===> Test test_main_search finished at 2024-09-07 14:47:17.917703
+INFO ===> Test test_main_search started at 2024-09-07 14:56:27.017379
+INFO Browser chrome started
+INFO ===> Test test_main_search finished at 2024-09-07 14:56:38.332227

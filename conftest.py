@@ -5,10 +5,10 @@ import pytest
 import json
 
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.firefox.service import Service as FFService
-from selenium.webdriver.firefox.options import Options as FFOptions
+from selenium.webdriver.chrome.service import Service as ChromeService
+from selenium.webdriver.chrome.options import Options as ChromeOptions
+from selenium.webdriver.firefox.service import Service as FirefoxService
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
 
 
 def pytest_addoption(parser):
@@ -16,6 +16,7 @@ def pytest_addoption(parser):
     parser.addoption("--url", action="store", default="http://192.168.31.66")
     parser.addoption("--headless", action="store_true")
     parser.addoption("--log_level", action="store", default="INFO")
+    parser.addoption("--executor", default="192.168.31.66")
 
 
 @pytest.fixture()
@@ -45,20 +46,29 @@ def browser(request):
     logger.addHandler(file_handler)
     logger.setLevel(level=log_level)
 
+    executor_url = f"http://{executor}:4444/wd/hub"
+
     logger.info("===> Test %s started at %s" % (request.node.name, datetime.datetime.now()))
 
     if browser_name == "chrome":
-        options = Options()
+        options = ChromeOptions()
         if headless_mode:
             options.add_argument("headless=new")
-        browser = webdriver.Chrome(service=Service(), options=options)
+        browser = webdriver.Chrome(service=ChromeService(), options=ChromeOptions())
     elif browser_name == "firefox":
-        options = FFOptions()
+        options = FirefoxOptions()
         if headless_mode:
             options.add_argument("--headless")
-        browser = webdriver.Firefox(service=FFService(), options=FFOptions())
+        browser = webdriver.Firefox(service=FirefoxService(), options=FirefoxOptions())
     else:
         raise ValueError(f"Browser {browser_name} not supported")
+
+    driver = webdriver.Remote(
+        command_executor=executor_url,
+        options=options
+    )
+
+    driver.maximize_window()
 
     allure.attach(
         name=browser.session_id,

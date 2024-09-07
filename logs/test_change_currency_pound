@@ -67,3 +67,6 @@ INFO ===> Test test_change_currency_pound finished at 2024-09-07 14:44:47.649406
 INFO ===> Test test_change_currency_pound started at 2024-09-07 14:47:07.271065
 INFO Browser chrome started
 INFO ===> Test test_change_currency_pound finished at 2024-09-07 14:47:18.817250
+INFO ===> Test test_change_currency_pound started at 2024-09-07 14:56:27.023207
+INFO Browser chrome started
+INFO ===> Test test_change_currency_pound finished at 2024-09-07 14:56:38.791553

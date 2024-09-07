@@ -258,3 +258,6 @@ INFO ===> Test test_user_login finished at 2024-09-07 14:44:47.592683
 INFO ===> Test test_user_login started at 2024-09-07 14:47:07.277794
 INFO Browser chrome started
 INFO ===> Test test_user_login finished at 2024-09-07 14:47:18.279526
+INFO ===> Test test_user_login started at 2024-09-07 14:56:27.018992
+INFO Browser chrome started
+INFO ===> Test test_user_login finished at 2024-09-07 14:56:40.150095

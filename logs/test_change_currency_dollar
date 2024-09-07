@@ -67,3 +67,6 @@ INFO ===> Test test_change_currency_dollar finished at 2024-09-07 14:44:49.23527
 INFO ===> Test test_change_currency_dollar started at 2024-09-07 14:47:15.219086
 INFO Browser chrome started
 INFO ===> Test test_change_currency_dollar finished at 2024-09-07 14:47:20.484181
+INFO ===> Test test_change_currency_dollar started at 2024-09-07 14:56:35.355709
+INFO Browser chrome started
+INFO ===> Test test_change_currency_dollar finished at 2024-09-07 14:56:40.925216

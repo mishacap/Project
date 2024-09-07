@@ -79,3 +79,6 @@ INFO ===> Test test_add_featured_to_cart finished at 2024-09-07 14:44:52.434444
 INFO ===> Test test_add_featured_to_cart started at 2024-09-07 14:47:17.953015
 INFO Browser chrome started
 INFO ===> Test test_add_featured_to_cart finished at 2024-09-07 14:47:23.699243
+INFO ===> Test test_add_featured_to_cart started at 2024-09-07 14:56:38.335501
+INFO Browser chrome started
+INFO ===> Test test_add_featured_to_cart finished at 2024-09-07 14:56:43.909867

@@ -318,3 +318,6 @@ INFO ===> Test test_add_to_wishlist finished at 2024-09-07 14:44:55.746237
 INFO ===> Test test_add_to_wishlist started at 2024-09-07 14:47:16.783096
 INFO Browser chrome started
 INFO ===> Test test_add_to_wishlist finished at 2024-09-07 14:47:27.211964
+INFO ===> Test test_add_to_wishlist started at 2024-09-07 14:56:37.108039
+INFO Browser chrome started
+INFO ===> Test test_add_to_wishlist finished at 2024-09-07 14:56:47.365514
