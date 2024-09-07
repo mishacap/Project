@@ -39,12 +39,14 @@ def browser(request):
     browser_name = request.config.getoption("--browser")
     headless_mode = request.config.getoption("--headless")
     log_level = request.config.getoption("--log_level")
+    executor = request.config.getoption("--executor")
 
     logger = logging.getLogger(request.node.name)
     file_handler = logging.FileHandler(f"logs/{request.node.name}")
     file_handler.setFormatter(logging.Formatter('%(levelname)s %(message)s'))
     logger.addHandler(file_handler)
     logger.setLevel(level=log_level)
+
 
     executor_url = f"http://{executor}:4444/wd/hub"
 
