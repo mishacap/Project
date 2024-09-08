@@ -59,7 +59,6 @@ def browser(request):
     executor_url = f"http://{executor}:4444/wd/hub"
 
     if executor == "local":
-        caps = {"goog:chromeOption": {}}
 
         if browser_name == "chrome":
             service = ChromeService()
