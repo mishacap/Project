@@ -24,3 +24,15 @@ pytest -n 2 --executor="local"
 - `--browser` — браузер для запуска (по умолчанию: `chrome`, также доступен `firefox`)
 - `--url` — IP-адрес для развернутого OpenCart
 - `--executor` — режим исполнения тестов (`local` или через `selenoid`)
+
+### Запуск через Dockerfile:
+
+1. Собрать образ:
+   ```bash
+   docker build -t tests_opencart .
+   ```
+
+2. Запустить контейнер. Пример:
+   ```bash
+   docker run --rm -ti tests_opencart -n 2
+   ```
