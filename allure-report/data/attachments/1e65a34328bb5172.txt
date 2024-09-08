@@ -1,0 +1,3 @@
+INFO     test_administration_login_logout:conftest.py:48 ===> Test test_administration_login_logout started at 2024-09-07 14:47:07.269986
+INFO     test_administration_login_logout:conftest.py:70 Browser chrome started
+INFO     test_administration_login_logout:conftest.py:84 ===> Test test_administration_login_logout finished at 2024-09-07 14:47:14.469228

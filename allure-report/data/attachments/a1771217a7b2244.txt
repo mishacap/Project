@@ -1,0 +1,11 @@
+INFO     test_change_currency_dollar:conftest.py:48 ===> Test test_change_currency_dollar started at 2024-09-07 14:44:44.332203
+INFO     test_change_currency_dollar:conftest.py:70 Browser chrome started
+INFO     test_change_currency_dollar:base_page.py:26 CurrencyPage: Clicking element: ('css selector', '#form-currency > div')
+INFO     test_change_currency_dollar:base_page.py:16 CurrencyPage: Get element: ('css selector', '#form-currency > div')
+INFO     test_change_currency_dollar:base_page.py:37 CurrencyPage: Wait element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO     test_change_currency_dollar:base_page.py:26 CurrencyPage: Clicking element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO     test_change_currency_dollar:base_page.py:16 CurrencyPage: Get element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO     test_change_currency_dollar:base_page.py:16 CurrencyPage: Get element: ('css selector', '#form-currency > div')
+INFO     test_change_currency_dollar:base_page.py:16 CurrencyPage: Get element: ('css selector', '#header-cart > div > button')
+INFO     test_change_currency_dollar:base_page.py:16 CurrencyPage: Get element: ('css selector', '#content > div.row.row-cols-1.row-cols-sm-2.row-cols-md-3.row-cols-xl-4 > div:nth-child(1) > div')
+INFO     test_change_currency_dollar:conftest.py:84 ===> Test test_change_currency_dollar finished at 2024-09-07 14:44:49.235276

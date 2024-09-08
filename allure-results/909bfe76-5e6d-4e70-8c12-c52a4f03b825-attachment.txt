@@ -1,0 +1,9 @@
+INFO     test_registration_elements:conftest.py:48 ===> Test test_registration_elements started at 2024-09-07 14:44:36.139838
+INFO     test_registration_elements:conftest.py:70 Browser chrome started
+INFO     test_registration_elements:base_page.py:37 RegistrationPage: Wait element: ('css selector', '#input-firstname')
+INFO     test_registration_elements:base_page.py:37 RegistrationPage: Wait element: ('css selector', '#input-lastname')
+INFO     test_registration_elements:base_page.py:37 RegistrationPage: Wait element: ('css selector', '#input-email')
+INFO     test_registration_elements:base_page.py:37 RegistrationPage: Wait element: ('css selector', '#input-password')
+INFO     test_registration_elements:base_page.py:37 RegistrationPage: Wait element: ('css selector', '#form-register > div > button')
+INFO     test_registration_elements:base_page.py:37 RegistrationPage: Wait element: ('css selector', '#form-register > div > div > input')
+INFO     test_registration_elements:conftest.py:84 ===> Test test_registration_elements finished at 2024-09-07 14:44:44.530494

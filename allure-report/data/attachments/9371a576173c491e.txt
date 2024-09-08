@@ -1,0 +1,3 @@
+INFO     test_main_search:conftest.py:48 ===> Test test_main_search started at 2024-09-07 14:47:07.271212
+INFO     test_main_search:conftest.py:70 Browser chrome started
+INFO     test_main_search:conftest.py:84 ===> Test test_main_search finished at 2024-09-07 14:47:17.917703

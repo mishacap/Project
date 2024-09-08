@@ -1,0 +1,76 @@
+INFO ===> Test test_registration_elements started at 2024-09-07 14:28:31.748593
+INFO Browser chrome started
+INFO RegistrationPage: Wait element: ('css selector', '#input-firstname')
+INFO RegistrationPage: Wait element: ('css selector', '#input-lastname')
+INFO RegistrationPage: Wait element: ('css selector', '#input-email')
+INFO RegistrationPage: Wait element: ('css selector', '#input-password')
+INFO RegistrationPage: Wait element: ('css selector', '#form-register > div > button')
+INFO RegistrationPage: Wait element: ('css selector', '#form-register > div > div > input')
+INFO ===> Test test_registration_elements finished at 2024-09-07 14:28:34.596769
+INFO ===> Test test_registration_elements started at 2024-09-07 14:32:24.220167
+INFO Browser chrome started
+INFO RegistrationPage: Wait element: ('css selector', '#input-firstname')
+INFO RegistrationPage: Wait element: ('css selector', '#input-lastname')
+INFO RegistrationPage: Wait element: ('css selector', '#input-email')
+INFO RegistrationPage: Wait element: ('css selector', '#input-password')
+INFO RegistrationPage: Wait element: ('css selector', '#form-register > div > button')
+INFO RegistrationPage: Wait element: ('css selector', '#form-register > div > div > input')
+INFO ===> Test test_registration_elements finished at 2024-09-07 14:32:31.299302
+INFO ===> Test test_registration_elements started at 2024-09-07 14:35:57.115285
+INFO Browser chrome started
+INFO RegistrationPage: Wait element: ('css selector', '#input-firstname')
+INFO RegistrationPage: Wait element: ('css selector', '#input-lastname')
+INFO RegistrationPage: Wait element: ('css selector', '#input-email')
+INFO RegistrationPage: Wait element: ('css selector', '#input-password')
+INFO RegistrationPage: Wait element: ('css selector', '#form-register > div > button')
+INFO RegistrationPage: Wait element: ('css selector', '#form-register > div > div > input')
+INFO ===> Test test_registration_elements finished at 2024-09-07 14:36:03.751290
+INFO ===> Test test_registration_elements started at 2024-09-07 14:38:35.935438
+INFO Browser chrome started
+INFO RegistrationPage: Wait element: ('css selector', '#input-firstname')
+INFO RegistrationPage: Wait element: ('css selector', '#input-lastname')
+INFO RegistrationPage: Wait element: ('css selector', '#input-email')
+INFO RegistrationPage: Wait element: ('css selector', '#input-password')
+INFO RegistrationPage: Wait element: ('css selector', '#form-register > div > button')
+INFO RegistrationPage: Wait element: ('css selector', '#form-register > div > div > input')
+INFO ===> Test test_registration_elements finished at 2024-09-07 14:38:42.891645
+INFO ===> Test test_registration_elements started at 2024-09-07 14:42:20.856109
+INFO Browser chrome started
+INFO RegistrationPage: Wait element: ('css selector', '#input-firstname')
+INFO RegistrationPage: Wait element: ('css selector', '#input-lastname')
+INFO RegistrationPage: Wait element: ('css selector', '#input-email')
+INFO RegistrationPage: Wait element: ('css selector', '#input-password')
+INFO RegistrationPage: Wait element: ('css selector', '#form-register > div > button')
+INFO RegistrationPage: Wait element: ('css selector', '#form-register > div > div > input')
+INFO ===> Test test_registration_elements finished at 2024-09-07 14:42:27.037325
+INFO ===> Test test_registration_elements started at 2024-09-07 14:44:36.139838
+INFO Browser chrome started
+INFO RegistrationPage: Wait element: ('css selector', '#input-firstname')
+INFO RegistrationPage: Wait element: ('css selector', '#input-lastname')
+INFO RegistrationPage: Wait element: ('css selector', '#input-email')
+INFO RegistrationPage: Wait element: ('css selector', '#input-password')
+INFO RegistrationPage: Wait element: ('css selector', '#form-register > div > button')
+INFO RegistrationPage: Wait element: ('css selector', '#form-register > div > div > input')
+INFO ===> Test test_registration_elements finished at 2024-09-07 14:44:44.530494
+INFO ===> Test test_registration_elements started at 2024-09-07 14:47:07.272171
+INFO Browser chrome started
+INFO ===> Test test_registration_elements finished at 2024-09-07 14:47:13.775187
+INFO ===> Test test_registration_elements started at 2024-09-07 14:56:27.022754
+INFO Browser chrome started
+INFO ===> Test test_registration_elements finished at 2024-09-07 14:56:35.605791
+INFO ===> Test test_registration_elements started at 2024-09-07 15:23:19.015125
+INFO ===> Test test_registration_elements started at 2024-09-07 15:25:12.215680
+INFO ===> Test test_registration_elements started at 2024-09-07 15:27:23.560941
+INFO Browser chrome started
+INFO ===> Test test_registration_elements started at 2024-09-07 15:33:25.052927
+INFO ===> Test test_registration_elements started at 2024-09-07 15:42:35.624049
+INFO ===> Test test_registration_elements started at 2024-09-07 15:44:36.689458
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="2116f220c887c54ef54fc0a71cc694d8")> started
+INFO ===> Test test_registration_elements started at 2024-09-07 15:48:14.122190
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="b0c7cad3cf6c4080e1075e4f7af78fe8")> started
+INFO ===> Test test_registration_elements started at 2024-09-07 15:48:57.327677
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="c925310ffa4cbb91ff81cc86b0e79e86")> started
+INFO ===> Test test_registration_elements started at 2024-09-08 13:16:28.060597
+INFO Browser <selenium.webdriver.chrome.webdriver.WebDriver (session="efc734e49676c9cec724813a136a0249")> started
+INFO ===> Test test_registration_elements started at 2024-09-08 13:17:49.029183
+INFO Browser <selenium.webdriver.chrome.webdriver.WebDriver (session="0b728baca177af242bbad40a73da5fc7")> started

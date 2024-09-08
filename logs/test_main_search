@@ -1,0 +1,106 @@
+INFO ===> Test test_main_search started at 2024-09-07 14:28:34.766528
+INFO Browser chrome started
+INFO MainPage: Input Not a in input ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Clicking element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#product-search > ul > li:nth-child(2) > a')
+INFO MainPage: Get element: ('css selector', '#content > h1')
+INFO ===> Test test_main_search finished at 2024-09-07 14:28:38.759597
+INFO ===> Test test_main_search started at 2024-09-07 14:32:24.212960
+INFO Browser chrome started
+INFO MainPage: Input Art beh in input ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Clicking element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#product-search > ul > li:nth-child(2) > a')
+INFO MainPage: Get element: ('css selector', '#content > h1')
+INFO ===> Test test_main_search finished at 2024-09-07 14:32:35.133178
+INFO ===> Test test_main_search started at 2024-09-07 14:35:57.118559
+INFO Browser chrome started
+INFO MainPage: Input Americ in input ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Clicking element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#product-search > ul > li:nth-child(2) > a')
+INFO MainPage: Get element: ('css selector', '#content > h1')
+INFO ===> Test test_main_search finished at 2024-09-07 14:36:06.726415
+INFO ===> Test test_main_search started at 2024-09-07 14:38:35.940822
+INFO Browser chrome started
+INFO MainPage: Input H in input ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Clicking element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#product-search > ul > li:nth-child(2) > a')
+INFO MainPage: Get element: ('css selector', '#content > h1')
+INFO ===> Test test_main_search finished at 2024-09-07 14:38:46.574603
+INFO ===> Test test_main_search started at 2024-09-07 14:42:20.860384
+INFO Browser chrome started
+INFO MainPage: Input Aroun in input ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Clicking element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#product-search > ul > li:nth-child(2) > a')
+INFO MainPage: Get element: ('css selector', '#content > h1')
+INFO ===> Test test_main_search finished at 2024-09-07 14:42:31.527617
+INFO ===> Test test_main_search started at 2024-09-07 14:44:36.132810
+INFO Browser chrome started
+INFO MainPage: Input O in input ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Get element: ('css selector', '#search > input')
+INFO MainPage: Clicking element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#search > button')
+INFO MainPage: Get element: ('css selector', '#product-search > ul > li:nth-child(2) > a')
+INFO MainPage: Get element: ('css selector', '#content > h1')
+INFO ===> Test test_main_search finished at 2024-09-07 14:44:47.563641
+INFO ===> Test test_main_search started at 2024-09-07 14:47:07.271212
+INFO Browser chrome started
+INFO ===> Test test_main_search finished at 2024-09-07 14:47:17.917703
+INFO ===> Test test_main_search started at 2024-09-07 14:56:27.017379
+INFO Browser chrome started
+INFO ===> Test test_main_search finished at 2024-09-07 14:56:38.332227
+INFO ===> Test test_main_search started at 2024-09-07 15:23:19.002474
+INFO ===> Test test_main_search started at 2024-09-07 15:27:25.001983
+INFO Browser chrome started
+INFO ===> Test test_main_search started at 2024-09-07 15:33:32.853030
+INFO ===> Test test_main_search started at 2024-09-07 15:42:38.523572
+INFO ===> Test test_main_search started at 2024-09-07 15:44:38.504457
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="256e51ea49e6d3d26ef4a1a48a0fee7d")> started
+INFO ===> Test test_main_search started at 2024-09-07 15:48:15.797494
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="c3bb32dcea163b9fcf1406e21a024600")> started
+INFO ===> Test test_main_search started at 2024-09-07 15:48:59.598961
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="3f2bb80727d420338e9b8d7b6a42c480")> started
+INFO ===> Test test_main_search started at 2024-09-08 13:16:31.162011
+INFO Browser <selenium.webdriver.chrome.webdriver.WebDriver (session="d4d32ab513a52bde3c2fa7aa61ecf35c")> started
+INFO ===> Test test_main_search started at 2024-09-08 13:17:51.040953
+INFO Browser <selenium.webdriver.chrome.webdriver.WebDriver (session="9606de4af94eefc9fb60fdc54b93eed6")> started

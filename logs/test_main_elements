@@ -1,0 +1,64 @@
+INFO ===> Test test_main_elements started at 2024-09-07 14:28:31.755893
+INFO Browser chrome started
+INFO MainPage: Wait element: ('css selector', '#header-cart > div > button')
+INFO MainPage: Wait element: ('css selector', '#search > input')
+INFO MainPage: Wait element: ('css selector', '#search > button')
+INFO MainPage: Wait element: ('css selector', '#narbar-menu')
+INFO ===> Test test_main_elements finished at 2024-09-07 14:28:34.750162
+INFO ===> Test test_main_elements started at 2024-09-07 14:32:24.215913
+INFO Browser chrome started
+INFO MainPage: Wait element: ('css selector', '#header-cart > div > button')
+INFO MainPage: Wait element: ('css selector', '#search > input')
+INFO MainPage: Wait element: ('css selector', '#search > button')
+INFO MainPage: Wait element: ('css selector', '#narbar-menu')
+INFO ===> Test test_main_elements finished at 2024-09-07 14:32:31.549798
+INFO ===> Test test_main_elements started at 2024-09-07 14:35:57.109047
+INFO Browser chrome started
+INFO MainPage: Wait element: ('css selector', '#header-cart > div > button')
+INFO MainPage: Wait element: ('css selector', '#search > input')
+INFO MainPage: Wait element: ('css selector', '#search > button')
+INFO MainPage: Wait element: ('css selector', '#narbar-menu')
+INFO ===> Test test_main_elements finished at 2024-09-07 14:36:05.137085
+INFO ===> Test test_main_elements started at 2024-09-07 14:38:35.949477
+INFO Browser chrome started
+INFO MainPage: Wait element: ('css selector', '#header-cart > div > button')
+INFO MainPage: Wait element: ('css selector', '#search > input')
+INFO MainPage: Wait element: ('css selector', '#search > button')
+INFO MainPage: Wait element: ('css selector', '#narbar-menu')
+INFO ===> Test test_main_elements finished at 2024-09-07 14:38:44.240660
+INFO ===> Test test_main_elements started at 2024-09-07 14:42:20.873112
+INFO Browser chrome started
+INFO MainPage: Wait element: ('css selector', '#header-cart > div > button')
+INFO MainPage: Wait element: ('css selector', '#search > input')
+INFO MainPage: Wait element: ('css selector', '#search > button')
+INFO MainPage: Wait element: ('css selector', '#narbar-menu')
+INFO ===> Test test_main_elements finished at 2024-09-07 14:42:28.105863
+INFO ===> Test test_main_elements started at 2024-09-07 14:44:36.155068
+INFO Browser chrome started
+INFO MainPage: Wait element: ('css selector', '#header-cart > div > button')
+INFO MainPage: Wait element: ('css selector', '#search > input')
+INFO MainPage: Wait element: ('css selector', '#search > button')
+INFO MainPage: Wait element: ('css selector', '#narbar-menu')
+INFO ===> Test test_main_elements finished at 2024-09-07 14:44:44.306976
+INFO ===> Test test_main_elements started at 2024-09-07 14:47:07.275151
+INFO Browser chrome started
+INFO ===> Test test_main_elements finished at 2024-09-07 14:47:15.184493
+INFO ===> Test test_main_elements started at 2024-09-07 14:56:27.021486
+INFO Browser chrome started
+INFO ===> Test test_main_elements finished at 2024-09-07 14:56:35.316071
+INFO ===> Test test_main_elements started at 2024-09-07 15:23:19.010326
+INFO ===> Test test_main_elements started at 2024-09-07 15:25:12.213775
+INFO ===> Test test_main_elements started at 2024-09-07 15:27:23.560940
+INFO Browser chrome started
+INFO ===> Test test_main_elements started at 2024-09-07 15:33:25.052915
+INFO ===> Test test_main_elements started at 2024-09-07 15:42:35.624049
+INFO ===> Test test_main_elements started at 2024-09-07 15:44:36.695916
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="1fa0f561eaed40a5bb115c130f46b286")> started
+INFO ===> Test test_main_elements started at 2024-09-07 15:48:14.106587
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="ae454d22448683bcd0b271e717893203")> started
+INFO ===> Test test_main_elements started at 2024-09-07 15:48:57.340515
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="73f1f66e79b10eecc1658825d932d05b")> started
+INFO ===> Test test_main_elements started at 2024-09-08 13:16:28.087297
+INFO Browser <selenium.webdriver.chrome.webdriver.WebDriver (session="86a33e0fc53261f4bcb389f16eb43281")> started
+INFO ===> Test test_main_elements started at 2024-09-08 13:17:49.076069
+INFO Browser <selenium.webdriver.chrome.webdriver.WebDriver (session="a4c8edc798a764b51cad492a4ab8f3a8")> started

@@ -1,0 +1,86 @@
+INFO ===> Test test_change_currency_dollar started at 2024-09-07 14:28:45.361119
+INFO Browser chrome started
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Get element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Wait element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO CurrencyPage: Get element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO CurrencyPage: Get element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Get element: ('css selector', '#header-cart > div > button')
+INFO CurrencyPage: Get element: ('css selector', '#content > div.row.row-cols-1.row-cols-sm-2.row-cols-md-3.row-cols-xl-4 > div:nth-child(1) > div')
+INFO ===> Test test_change_currency_dollar finished at 2024-09-07 14:28:48.577489
+INFO ===> Test test_change_currency_dollar started at 2024-09-07 14:32:31.594261
+INFO Browser chrome started
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Get element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Wait element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO CurrencyPage: Get element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO CurrencyPage: Get element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Get element: ('css selector', '#header-cart > div > button')
+INFO CurrencyPage: Get element: ('css selector', '#content > div.row.row-cols-1.row-cols-sm-2.row-cols-md-3.row-cols-xl-4 > div:nth-child(1) > div')
+INFO ===> Test test_change_currency_dollar finished at 2024-09-07 14:32:37.115307
+INFO ===> Test test_change_currency_dollar started at 2024-09-07 14:36:05.158173
+INFO Browser chrome started
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Get element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Wait element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO CurrencyPage: Get element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO CurrencyPage: Get element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Get element: ('css selector', '#header-cart > div > button')
+INFO CurrencyPage: Get element: ('css selector', '#content > div.row.row-cols-1.row-cols-sm-2.row-cols-md-3.row-cols-xl-4 > div:nth-child(1) > div')
+INFO ===> Test test_change_currency_dollar finished at 2024-09-07 14:36:09.961088
+INFO ===> Test test_change_currency_dollar started at 2024-09-07 14:38:44.261248
+INFO Browser chrome started
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Get element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Wait element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO CurrencyPage: Get element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO CurrencyPage: Get element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Get element: ('css selector', '#header-cart > div > button')
+INFO CurrencyPage: Get element: ('css selector', '#content > div.row.row-cols-1.row-cols-sm-2.row-cols-md-3.row-cols-xl-4 > div:nth-child(1) > div')
+INFO ===> Test test_change_currency_dollar finished at 2024-09-07 14:38:49.119472
+INFO ===> Test test_change_currency_dollar started at 2024-09-07 14:42:28.130291
+INFO Browser chrome started
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Get element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Wait element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO CurrencyPage: Get element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO CurrencyPage: Get element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Get element: ('css selector', '#header-cart > div > button')
+INFO CurrencyPage: Get element: ('css selector', '#content > div.row.row-cols-1.row-cols-sm-2.row-cols-md-3.row-cols-xl-4 > div:nth-child(1) > div')
+INFO ===> Test test_change_currency_dollar finished at 2024-09-07 14:42:32.683898
+INFO ===> Test test_change_currency_dollar started at 2024-09-07 14:44:44.332203
+INFO Browser chrome started
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Get element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Wait element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO CurrencyPage: Clicking element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO CurrencyPage: Get element: ('css selector', '#form-currency > div > ul > li:nth-child(3) > a')
+INFO CurrencyPage: Get element: ('css selector', '#form-currency > div')
+INFO CurrencyPage: Get element: ('css selector', '#header-cart > div > button')
+INFO CurrencyPage: Get element: ('css selector', '#content > div.row.row-cols-1.row-cols-sm-2.row-cols-md-3.row-cols-xl-4 > div:nth-child(1) > div')
+INFO ===> Test test_change_currency_dollar finished at 2024-09-07 14:44:49.235276
+INFO ===> Test test_change_currency_dollar started at 2024-09-07 14:47:15.219086
+INFO Browser chrome started
+INFO ===> Test test_change_currency_dollar finished at 2024-09-07 14:47:20.484181
+INFO ===> Test test_change_currency_dollar started at 2024-09-07 14:56:35.355709
+INFO Browser chrome started
+INFO ===> Test test_change_currency_dollar finished at 2024-09-07 14:56:40.925216
+INFO ===> Test test_change_currency_dollar started at 2024-09-07 15:23:22.908896
+INFO ===> Test test_change_currency_dollar started at 2024-09-07 15:27:27.605102
+INFO ===> Test test_change_currency_dollar started at 2024-09-07 15:33:57.579330
+INFO ===> Test test_change_currency_dollar started at 2024-09-07 15:42:42.926843
+INFO ===> Test test_change_currency_dollar started at 2024-09-07 15:44:51.016927
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="3f47cfbfbb1a30e879fee118e1a43cda")> started
+INFO ===> Test test_change_currency_dollar started at 2024-09-07 15:48:26.744733
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="51fbb4834dc34f9eb4e3c001450b1abb")> started
+INFO ===> Test test_change_currency_dollar started at 2024-09-07 15:49:12.690928
+INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="faa2c7b8c1bb578a1fa18ceffa2b74dd")> started
+INFO ===> Test test_change_currency_dollar started at 2024-09-08 13:16:42.604613
+INFO Browser <selenium.webdriver.chrome.webdriver.WebDriver (session="458aa40a9680b2c2d297d0aeb731a82b")> started
+INFO ===> Test test_change_currency_dollar started at 2024-09-08 13:18:01.445243
+INFO Browser <selenium.webdriver.chrome.webdriver.WebDriver (session="b803df622b337292b80f1cccfc0bfd6b")> started

@@ -1,0 +1,11 @@
+INFO     test_add_to_compare:conftest.py:48 ===> Test test_add_to_compare started at 2024-09-07 14:42:27.057548
+INFO     test_add_to_compare:conftest.py:70 Browser chrome started
+INFO     test_add_to_compare:base_page.py:26 ProductPage: Clicking element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO     test_add_to_compare:base_page.py:16 ProductPage: Get element: ('css selector', '#content > div.row .product-thumb h4 a')
+INFO     test_add_to_compare:base_page.py:26 ProductPage: Clicking element: ('css selector', '#content > div.row.mb-3 > div:nth-child(2) > form > div > button:nth-child(2)')
+INFO     test_add_to_compare:base_page.py:16 ProductPage: Get element: ('css selector', '#content > div.row.mb-3 > div:nth-child(2) > form > div > button:nth-child(2)')
+INFO     test_add_to_compare:base_page.py:26 ProductPage: Clicking element: ('css selector', '#alert > div > a:nth-child(3)')
+INFO     test_add_to_compare:base_page.py:16 ProductPage: Get element: ('css selector', '#alert > div > a:nth-child(3)')
+INFO     test_add_to_compare:base_page.py:37 ProductPage: Wait element: ('css selector', '#content > table > tbody:nth-child(7) > tr > td.text-center > form > a')
+INFO     test_add_to_compare:base_page.py:37 ProductPage: Wait element: ('css selector', '#button-confirm')
+INFO     test_add_to_compare:conftest.py:84 ===> Test test_add_to_compare finished at 2024-09-07 14:42:34.081174

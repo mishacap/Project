@@ -1,0 +1,3 @@
+INFO     test_change_currency_dollar:conftest.py:48 ===> Test test_change_currency_dollar started at 2024-09-07 14:47:15.219086
+INFO     test_change_currency_dollar:conftest.py:70 Browser chrome started
+INFO     test_change_currency_dollar:conftest.py:84 ===> Test test_change_currency_dollar finished at 2024-09-07 14:47:20.484181
