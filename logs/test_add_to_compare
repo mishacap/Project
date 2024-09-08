@@ -79,3 +79,7 @@ INFO ===> Test test_add_to_compare started at 2024-09-07 15:48:30.514389
 INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="28ec98bbe8082a179d6db6aae593d110")> started
 INFO ===> Test test_add_to_compare started at 2024-09-07 15:49:16.598228
 INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="1be915bf58a2c4e82ad95faa1285ff06")> started
+INFO ===> Test test_add_to_compare started at 2024-09-08 13:16:46.212069
+INFO Browser <selenium.webdriver.chrome.webdriver.WebDriver (session="04746f332072fe9cdc367c87ebd97c96")> started
+INFO ===> Test test_add_to_compare started at 2024-09-08 13:18:05.557273
+INFO Browser <selenium.webdriver.chrome.webdriver.WebDriver (session="727e37b419c510ea614540bd97ccc177")> started

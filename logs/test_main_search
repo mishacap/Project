@@ -100,3 +100,7 @@ INFO ===> Test test_main_search started at 2024-09-07 15:48:15.797494
 INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="c3bb32dcea163b9fcf1406e21a024600")> started
 INFO ===> Test test_main_search started at 2024-09-07 15:48:59.598961
 INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="3f2bb80727d420338e9b8d7b6a42c480")> started
+INFO ===> Test test_main_search started at 2024-09-08 13:16:31.162011
+INFO Browser <selenium.webdriver.chrome.webdriver.WebDriver (session="d4d32ab513a52bde3c2fa7aa61ecf35c")> started
+INFO ===> Test test_main_search started at 2024-09-08 13:17:51.040953
+INFO Browser <selenium.webdriver.chrome.webdriver.WebDriver (session="9606de4af94eefc9fb60fdc54b93eed6")> started

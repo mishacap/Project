@@ -92,3 +92,7 @@ INFO ===> Test test_add_featured_to_cart started at 2024-09-07 15:48:28.713510
 INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="35f4fa056681bdf357c58086b6165e8c")> started
 INFO ===> Test test_add_featured_to_cart started at 2024-09-07 15:49:14.035336
 INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="4cfaaff0b89a1fc436d407a086130578")> started
+INFO ===> Test test_add_featured_to_cart started at 2024-09-08 13:16:45.220459
+INFO Browser <selenium.webdriver.chrome.webdriver.WebDriver (session="05592b8263044c7be0c5e6498af8bf36")> started
+INFO ===> Test test_add_featured_to_cart started at 2024-09-08 13:18:05.575821
+INFO Browser <selenium.webdriver.chrome.webdriver.WebDriver (session="3fe54b7f38d967baf868d4da00164f49")> started

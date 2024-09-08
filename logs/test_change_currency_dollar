@@ -80,3 +80,7 @@ INFO ===> Test test_change_currency_dollar started at 2024-09-07 15:48:26.744733
 INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="51fbb4834dc34f9eb4e3c001450b1abb")> started
 INFO ===> Test test_change_currency_dollar started at 2024-09-07 15:49:12.690928
 INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="faa2c7b8c1bb578a1fa18ceffa2b74dd")> started
+INFO ===> Test test_change_currency_dollar started at 2024-09-08 13:16:42.604613
+INFO Browser <selenium.webdriver.chrome.webdriver.WebDriver (session="458aa40a9680b2c2d297d0aeb731a82b")> started
+INFO ===> Test test_change_currency_dollar started at 2024-09-08 13:18:01.445243
+INFO Browser <selenium.webdriver.chrome.webdriver.WebDriver (session="b803df622b337292b80f1cccfc0bfd6b")> started

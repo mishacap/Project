@@ -165,3 +165,7 @@ INFO ===> Test test_administration_login_logout started at 2024-09-07 15:48:19.9
 INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="ba3ad2cea9059f3c416860b0b9425aa2")> started
 INFO ===> Test test_administration_login_logout started at 2024-09-07 15:49:04.786599
 INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="a08352a0237dd5a974f6489b98f15b9f")> started
+INFO ===> Test test_administration_login_logout started at 2024-09-08 13:16:35.356155
+INFO Browser <selenium.webdriver.chrome.webdriver.WebDriver (session="ba6b3cb0a15340076c6f5ff816eb0d0c")> started
+INFO ===> Test test_administration_login_logout started at 2024-09-08 13:17:54.281770
+INFO Browser <selenium.webdriver.chrome.webdriver.WebDriver (session="beee61c91cd57a81ad7be08c5ad97983")> started

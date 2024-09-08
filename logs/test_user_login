@@ -272,3 +272,7 @@ INFO ===> Test test_user_login started at 2024-09-07 15:48:19.939679
 INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="4cbf17866af296e0da9fa80646758f4d")> started
 INFO ===> Test test_user_login started at 2024-09-07 15:49:04.470550
 INFO Browser <selenium.webdriver.remote.webdriver.WebDriver (session="238a60b5b4def777f196ade54deabe3d")> started
+INFO ===> Test test_user_login started at 2024-09-08 13:16:37.256244
+INFO Browser <selenium.webdriver.chrome.webdriver.WebDriver (session="128f5b20083ef274a8ba399a31084b98")> started
+INFO ===> Test test_user_login started at 2024-09-08 13:17:56.582401
+INFO Browser <selenium.webdriver.chrome.webdriver.WebDriver (session="a23563e287d04048d92cd5ba81373a1a")> started
